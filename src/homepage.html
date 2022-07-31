@@ -49,12 +49,22 @@
     .annotation-group-scene-3 {
         opacity: 0;
     }
+
+    .labels1 {
+        pointer-events: none;
+    }
+
+    .labels2 {
+        pointer-events: none;
+    }
+
     
     </style>
     <body onload='init()'>
 
         <select id="yearButton1"></select>
         <select id="yearButton2"></select>
+        <select id="champButton"></select>
 
         <div class="plotdiv" id="plot">
         </div>
@@ -76,6 +86,7 @@
                 
                 var data = await d3.csv("/worlds.csv")
                 var allYears = d3.map(data, function(d){return(d.Year)}).keys()      
+                var allChamps = d3.map(data, function(d){return(d.Champion)}).keys()
 
                 // Define SVG
                 var svg = d3.select("#plot")
@@ -144,6 +155,9 @@
                         wrap: 150,
                         align: "left"
                     },
+                    subject: {
+                        radius: 50
+                    },
                     connector: {
                         end: "arrow" // 'dot' also available
                     },
@@ -162,8 +176,9 @@
                     .attr("transform", "translate(" + margin.x + "," + margin.y + ")");
                 
 
-
-                // Button 1
+                
+                var currentYear1 = "2011"
+                // Year button 1
                 d3.select("#yearButton1")
                 .selectAll('myOptions')
                     .data(allYears)
@@ -172,8 +187,9 @@
                 .text(function (d) { return d; })
                 .attr("value", function (d) { return d; })
 
-
-                // Button 2
+                
+                var currentYear2 = "2016"
+                // Year button 2
                 d3.select("#yearButton2")
                 .selectAll('myOptions')
                     .data(allYears)
@@ -182,6 +198,19 @@
                 .text(function (d) { return d; })
                 .attr("value", function (d) { return d; })
                 .property("selected", function(d){ return d === "2016"; })
+
+
+                
+                var currentChamp = "Lee Sin"
+                // Champ button 
+                d3.select("#champButton")
+                .selectAll('myOptions')
+                    .data(allChamps)
+                .enter()
+                    .append('option')
+                .text(function (d) { return d; })
+                .attr("value", function (d) { return d; })
+                .property("selected", function(d){ return d === currentChamp; })
 
 
 
@@ -245,7 +274,6 @@
                                 d3.select(this).style('stroke', 'transparent');
                             });
 
-
                 var scatterplot2 = group2.selectAll('path').data(data.filter(function(d){return d.Year==allYears[5]}))
                     .join("path")
                     .attr("transform",
@@ -280,11 +308,36 @@
                                     .style("opacity", 0);	
                                 d3.select(this).style('stroke', 'transparent');
                             });
+                
+                var labels1 = svg.append("g")
+                    .attr("transform", "translate(" + margin.x + "," + margin.y + ")")
+                    .selectAll("text").data(data.filter(function(d){return d.Year==allYears[0]}))
+                    .enter().append("text")
+                    .attr("class", "labels1")
+                    .text(function(d) {if (d.Champion == "Lee Sin") {
+                        return d.Champion
+                    }
+                        return ""})
+                    .attr("x", function(d) {return xScale(d.PB/100)})
+                    .attr("y", function(d) {return yScale(d.W/100)});
 
+
+                var labels2 = svg.append("g")
+                    .attr("transform", "translate(" + margin.x + "," + margin.y + ")")
+                    .selectAll("text").data(data.filter(function(d){return d.Year==allYears[5]}))
+                    .enter().append("text")
+                    .attr("class", "labels2")
+                    .text(function(d) {if (d.Champion == "Lee Sin") {
+                        return d.Champion
+                    }
+                        return ""})
+                    .attr("x", function(d) {return xScale(d.PB/100)})
+                    .attr("y", function(d) {return yScale(d.W/100)});
+        
                 
                 // Add annotations 
                 const makeScene1Anno = d3.annotation()
-                    .type(d3.annotationLabel)
+                    .type(d3.annotationCalloutCircle)
                     .annotations(scene1Anno)
 
                     svg.append("g")
@@ -310,7 +363,7 @@
 
 
                 // Update scatterplot
-                function update(newYear, scatterplot, group, symbol) {
+                function updateYear(newYear, scatterplot, group, symbol, labels) {
 
                     var dataFilter = data.filter(function(d){return d.Year==newYear})
                     scatterplot
@@ -321,6 +374,20 @@
                             d => "translate(" + xScale(d.PB/100) + "," + yScale(d.W/100) + ")")
                         .attr("fill", function(d){return colors(newYear)})
                         .attr("d", d3.symbol().type(symbol).size(function(d){return d.GP * 25}))
+                    
+                    labels
+                        .data(dataFilter)
+                        .transition()
+                        .duration(1000)
+                        .text(function(d) {
+                            if (d.Champion == currentChamp) {
+                                return d.Champion
+                            }
+                            return ""}
+                            )
+                        .attr("x", function(d) {return xScale(d.PB/100)})
+                        .attr("y", function(d) {return yScale(d.W/100)});
+
 
 
                         group.selectAll('path').each(function(d) {
@@ -329,17 +396,63 @@
                             d3.select(this).remove()
                         }
                         })
+
+
+                    }
+
+                    function updateChamp(newChamp) {
+
+                        currentChamp = newChamp
+
+                        var dataFilter1 = data.filter(function(d){return d.Year==currentYear1})
+                        var dataFilter2 = data.filter(function(d){return d.Year==currentYear2})
+                        console.log("here")
+
+                        labels1
+                        .data(dataFilter1)
+                        .transition()
+                        .duration(1000)
+                        .text(function(d) {
+                            if (d.Champion == currentChamp) {
+                                return d.Champion
+                            }
+                            return ""}
+                            )
+                        .attr("x", function(d) {return xScale(d.PB/100)})
+                        .attr("y", function(d) {return yScale(d.W/100)});
+
+
+                        labels2
+                        .data(dataFilter2)
+                        .transition()
+                        .duration(1000)
+                        .text(function(d) {
+                            if (d.Champion == currentChamp) {
+                                return d.Champion
+                            }
+                            return ""}
+                            )
+                        .attr("x", function(d) {return xScale(d.PB/100)})
+                        .attr("y", function(d) {return yScale(d.W/100)});
+
                     }
 
 
                     d3.select("#yearButton1").on("change", function(d) {
-                    var selectedOption = d3.select(this).property("value")
-                    update(selectedOption, scatterplot1, group1, d3.symbolCircle)
+                        var newYear = d3.select(this).property("value")
+                        currentYear1 = newYear
+                        updateYear(newYear, scatterplot1, group1, d3.symbolCircle, labels1)
                     })
 
                     d3.select("#yearButton2").on("change", function(d) {
-                    var selectedOption = d3.select(this).property("value")
-                    update(selectedOption, scatterplot2, group2, d3.symbolCross)
+                        var newYear = d3.select(this).property("value")
+                        currentYear2 = newYear
+                        updateYear(newYear, scatterplot2, group2, d3.symbolCross, labels2)
+                    })
+
+                    d3.select("#champButton").on("change", function(d) {
+                        var newChamp = d3.select(this).property("value")
+                        updateChamp(newChamp)
                     })
 
 
