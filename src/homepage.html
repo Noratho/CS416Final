@@ -29,6 +29,26 @@
     .plotdiv {
         margin-left: 140px;
     }
+
+    .ylabel {
+        font-size: 12px;
+    }
+
+    .xlabel {
+        font-size: 12px;
+    }
+
+    .annotation-group-scene-1 {
+        opacity: 1;
+    }
+
+    .annotation-group-scene-2 {
+        opacity: 0;
+    }
+
+    .annotation-group-scene-3 {
+        opacity: 0;
+    }
     
     </style>
     <body onload='init()'>
@@ -63,19 +83,38 @@
                     .attr("width", width)
                     .attr("height", height)
 
-               // y Axis
-               d3.select("svg").append("g")
+
+                // x Axis
+                svg.append("g")
+                    .attr("transform", "translate("+50+","+500+")")
+                    .call(d3.axisBottom(xScale)
+                    .tickValues([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
+                    .tickFormat(d3.format("~%")))
+
+                // x axis label
+                svg.append("text")
+                    .attr("class", "xlabel")
+                    .attr("text-anchor", "middle")
+                    .attr("x", width/2)
+                    .attr("y", height - 15)
+                    .text("Pick or Ban Rate");
+
+                // y Axis
+                svg.append("g")
                     .attr("transform", "translate("+50+","+50+")")
                     .call(d3.axisLeft(yScale)
                     .tickValues([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
                     .tickFormat(d3.format("~%")));
 
-                // x Axis
-                d3.select("svg").append("g")
-                    .attr("transform", "translate("+50+","+500+")")
-                    .call(d3.axisBottom(xScale)
-                    .tickValues([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
-                    .tickFormat(d3.format("~%")));
+                // y axis label
+                svg.append("text")
+                    .attr("class", "ylabel")
+                    .attr("text-anchor", "middle")
+                    .attr("y", 0)
+                    .attr("x", -height/2)
+                    .attr("dy", ".75em")
+                    .attr("transform", "rotate(-90)")
+                    .text("Winrate");
 
 
                 // add the X gridlines
@@ -97,8 +136,25 @@
                         .tickSize(-width + 100)
                         .tickFormat("")
                     )
-                
-                // Define the two groups
+
+                const scene1Anno = [{
+                    note: {
+                        label: "Added connector end 'arrow', note wrap '180', and note align 'left'",
+                        title: "d3.annotationLabel",
+                        wrap: 150,
+                        align: "left"
+                    },
+                    connector: {
+                        end: "arrow" // 'dot' also available
+                    },
+                    x: 170,
+                    y: 150,
+                    dy: 137,
+                    dx: 162
+                    },].map(function(d){ d.color = "#E8336D"; return d})
+
+
+                // Define the two scatterplot groups
                 var group1 = svg.append("g")
                     .attr("transform", "translate(" + margin.x + "," + margin.y + ")");
                 
@@ -225,6 +281,32 @@
                                 d3.select(this).style('stroke', 'transparent');
                             });
 
+                
+                // Add annotations 
+                const makeScene1Anno = d3.annotation()
+                    .type(d3.annotationLabel)
+                    .annotations(scene1Anno)
+
+                    svg.append("g")
+                    .attr("class", "annotation-group-scene-1")
+                    .call(makeScene1Anno)
+
+                const makeScene2anno = d3.annotation()
+                    .type(d3.annotationLabel)
+                    .annotations(scene1Anno)
+
+                    svg.append("g")
+                    .attr("class", "annotation-group-scene-1")
+                    .call(makeScene1Anno)
+                
+                const makeScene3Anno = d3.annotation()
+                    .type(d3.annotationLabel)
+                    .annotations(scene1Anno)
+
+                    svg.append("g")
+                    .attr("class", "annotation-group-scene-1")
+                    .call(makeScene1Anno)
+
 
 
                 // Update scatterplot
@@ -269,6 +351,17 @@
                 function make_y_gridlines() {		
                     return d3.axisLeft(yScale)
                         .ticks(9)
+                }
+
+
+
+
+                function scene2Transition() {
+
+                }
+
+                function scene3Transition() {
+
                 }
 
             }
