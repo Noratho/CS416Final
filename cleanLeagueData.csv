@@ -1,0 +1,429 @@
+league,split,patch,t1_playerid,t1_result,t2_playerid,t1_ban1,t1_ban2,t1_ban3,t1_ban4,t1_ban5,t2_ban1,t2_ban2,t2_ban3,t2_ban4,t2_ban5,t1p1_champion,t1p2_champion,t1p3_champion,t1p4_champion,t1p5_champion,t2p1_champion,t2p2_champion,t2p3_champion,t2p4_champion,t2p5_champion
+LCS.A,Spring,10.01,Evil Geniuses Academy,0,Dignitas Academy,Irelia,Mordekaiser,Tahm Kench,Ryze,Orianna,Akali,Rumble,Lucian,Pantheon,Renekton,Nautilus,Aphelios,Ornn,Lee Sin,Kennen,Thresh,Miss Fortune,Zoe,Elise,Aatrox
+LCS.A,Spring,10.01,Cloud9 Academy,1,Team Liquid Academy,Kennen,Qiyana,Irelia,Nautilus,LeBlanc,Akali,Lucian,Elise,Ryze,Pantheon,Thresh,Varus,Rumble,Rek'Sai,Ornn,Leona,Aphelios,Cassiopeia,Jarvan IV,Mordekaiser
+LCS.A,Spring,10.01,TSM Academy,0,Immortals Academy,Elise,Ornn,Mordekaiser,Senna,Miss Fortune,Rumble,Akali,Lucian,Cassiopeia,Zoe,Leona,Aphelios,LeBlanc,Gragas,Aatrox,Braum,Ezreal,Nautilus,Lee Sin,Urgot
+LCS.A,Spring,10.01,FlyQuest Academy,1,CLG Academy,Elise,Lucian,Aphelios,Mordekaiser,Ryze,Akali,Cassiopeia,Senna,Varus,Fiora,Thresh,Kai'Sa,Rumble,Qiyana,Aatrox,Nautilus,Miss Fortune,Orianna,Jarvan IV,Ornn
+LCS.A,Spring,10.01,Golden Guardians Academy,1,100 Thieves Academy,Elise,Qiyana,Pantheon,Ornn,Cassiopeia,Akali,Rumble,Lucian,Mordekaiser,Lissandra,Braum,Aphelios,Ryze,Lee Sin,Aatrox,Tahm Kench,Senna,LeBlanc,Rek'Sai,Camille
+LCS,Spring,10.01,Cloud9,1,Team Liquid,Irelia,Ornn,Lucian,Ekko,Orianna,Akali,Qiyana,Rumble,Zoe,LeBlanc,Tahm Kench,Aphelios,Veigar,Lee Sin,Aatrox,Thresh,Senna,Azir,Jarvan IV,Mordekaiser
+LCS,Spring,10.01,Counter Logic Gaming,0,Dignitas,Irelia,Qiyana,Gangplank,Aphelios,Varus,Akali,Lucian,Rumble,LeBlanc,Kennen,Leona,Senna,Cassiopeia,Rek'Sai,Ornn,Tahm Kench,Ashe,Viktor,Elise,Renekton
+LCS,Spring,10.01,100 Thieves,1,Golden Guardians,Qiyana,Rumble,Senna,Vladimir,Lee Sin,Akali,Lucian,Aphelios,Lissandra,Elise,Leona,Miss Fortune,Zoe,Gragas,Gangplank,Braum,Varus,LeBlanc,Jarvan IV,Ornn
+LCS,Spring,10.01,Immortals,0,FlyQuest,Rumble,Elise,Braum,Camille,Tahm Kench,Akali,Ornn,Qiyana,LeBlanc,Gragas,Thresh,Cassiopeia,Lucian,Trundle,Aatrox,Blitzcrank,Senna,Viktor,Lee Sin,Riven
+LCS.A,Spring,10.01,Golden Guardians Academy,1,Cloud9 Academy,Elise,Qiyana,Irelia,Thresh,Cassiopeia,Akali,Lucian,Rumble,Yasuo,LeBlanc,Braum,Aphelios,Viktor,Lee Sin,Mordekaiser,Zilean,Miss Fortune,Orianna,Olaf,Ornn
+LCS,Spring,10.01,Dignitas,1,Evil Geniuses,Qiyana,Irelia,Ornn,Jarvan IV,LeBlanc,Rumble,Akali,Lucian,Elise,Olaf,Braum,Senna,Orianna,Lee Sin,Gangplank,Tahm Kench,Aphelios,Azir,Gragas,Aatrox
+LCS,Spring,10.01,Team SoloMid,0,Immortals,Irelia,Mordekaiser,Cassiopeia,Aphelios,Pantheon,Akali,Qiyana,Lucian,Olaf,Camille,Tahm Kench,Senna,LeBlanc,Lee Sin,Rumble,Braum,Ezreal,Zoe,Elise,Aatrox
+LCS,Spring,10.01,Golden Guardians,0,Cloud9,Elise,Irelia,Lucian,LeBlanc,Gangplank,Akali,Rumble,Qiyana,Vladimir,Orianna,Tahm Kench,Senna,Diana,Rek'Sai,Aatrox,Nautilus,Aphelios,Zoe,Lee Sin,Camille
+LCS,Spring,10.01,FlyQuest,1,Counter Logic Gaming,Lucian,Elise,Qiyana,LeBlanc,Ornn,Akali,Riven,Lee Sin,Thresh,Orianna,Leona,Aphelios,Rumble,Rek'Sai,Aatrox,Nautilus,Senna,Zoe,Jarvan IV,Camille
+LCS.A,Spring,10.01,CLG Academy,0,Dignitas Academy,Mordekaiser,Tahm Kench,Jarvan IV,Zoe,Orianna,Akali,Rumble,Lucian,Pantheon,LeBlanc,Nautilus,Draven,Irelia,Elise,Ornn,Thresh,Miss Fortune,Sylas,Olaf,Aatrox
+LCS.A,Spring,10.01,FlyQuest Academy,1,Immortals Academy,Ornn,Mordekaiser,Lee Sin,LeBlanc,Urgot,Rumble,Akali,Lucian,Qiyana,Renekton,Blitzcrank,Miss Fortune,Azir,Elise,Aatrox,Tahm Kench,Senna,Viktor,Jarvan IV,Pantheon
+LCS.A,Spring,10.01,Evil Geniuses Academy,0,100 Thieves Academy,LeBlanc,Azir,Renekton,Irelia,Leona,Akali,Rumble,Senna,Varus,Thresh,Rakan,Xayah,Mordekaiser,Lee Sin,Lucian,Braum,Aphelios,Pantheon,Elise,Aatrox
+LCS.A,Spring,10.01,Team Liquid Academy,0,TSM Academy,Qiyana,LeBlanc,Elise,Ryze,Ornn,Akali,Rumble,Lucian,Rakan,Orianna,Nautilus,Aphelios,Zoe,Jarvan IV,Kennen,Braum,Senna,Cassiopeia,Lee Sin,Aatrox
+LCS,Spring,10.01,Evil Geniuses,1,100 Thieves,Gangplank,Rumble,Lucian,Elise,Gragas,Akali,Aphelios,Qiyana,Jarvan IV,Zoe,Tahm Kench,Senna,LeBlanc,Lee Sin,Mordekaiser,Rakan,Xayah,Ryze,Olaf,Aatrox
+LCS,Spring,10.01,Team Liquid,1,Team SoloMid,Lucian,Qiyana,Aphelios,Irelia,LeBlanc,Rumble,Akali,Senna,Vladimir,Aatrox,Rakan,Xayah,Orianna,Jarvan IV,Ornn,Leona,Miss Fortune,Zilean,Elise,Gangplank
+LCS.A,Spring,10.02,CLG Academy,0,100 Thieves Academy,Soraka,Pantheon,Elise,LeBlanc,Syndra,Akali,Sett,Rumble,Mordekaiser,Ryze,Braum,Miss Fortune,Lucian,Jarvan IV,Vladimir,Lulu,Aphelios,Orianna,Lee Sin,Ornn
+LCS.A,Spring,10.02,Cloud9 Academy,1,FlyQuest Academy,Elise,Soraka,Lucian,Gragas,Azir,Akali,Rumble,Sett,Rek'Sai,Olaf,Nautilus,Aphelios,Syndra,Xin Zhao,Ornn,Thresh,Miss Fortune,LeBlanc,Lee Sin,Mordekaiser
+LCS.A,Spring,10.02,Dignitas Academy,1,Team Liquid Academy,Jarvan IV,Syndra,Aphelios,Miss Fortune,LeBlanc,Akali,Elise,Lucian,Gragas,Rek'Sai,Tahm Kench,Senna,Rumble,Olaf,Sett,Nautilus,Varus,Viktor,Lee Sin,Kennen
+LCS.A,Spring,10.02,Immortals Academy,1,Golden Guardians Academy,Olaf,Rumble,Ornn,Leona,Mordekaiser,Akali,Lucian,Elise,Thresh,Nautilus,Rakan,Xayah,Syndra,Lee Sin,Pantheon,Senna,Soraka,Orianna,Jarvan IV,Sett
+LCS.A,Spring,10.02,Evil Geniuses Academy,1,TSM Academy,Mordekaiser,Lucian,Sett,LeBlanc,Cassiopeia,Rumble,Akali,Syndra,Jarvan IV,Gragas,Tahm Kench,Senna,Pantheon,Elise,Ornn,Braum,Aphelios,Orianna,Lee Sin,Aatrox
+LCS,Spring,10.02,Counter Logic Gaming,0,100 Thieves,Elise,Senna,Gangplank,Syndra,Gragas,Akali,Rumble,Tahm Kench,LeBlanc,Diana,Leona,Aphelios,Lucian,Rek'Sai,Kayle,Rakan,Xayah,Zoe,Jarvan IV,Sett
+LCS,Spring,10.02,Dignitas,1,Team Liquid,Ornn,Tahm Kench,Sett,LeBlanc,Syndra,Rumble,Lucian,Akali,Elise,Gragas,Thresh,Aphelios,Orianna,Jarvan IV,Gangplank,Nautilus,Senna,Ryze,Lee Sin,Aatrox
+LCS,Spring,10.02,Cloud9,1,Immortals,Soraka,Lucian,Sett,Renekton,Aphelios,Akali,Braum,Rumble,Ornn,Aatrox,Tahm Kench,Senna,Pantheon,Elise,Gangplank,Thresh,Cassiopeia,Yasuo,Gragas,Karma
+LCS,Spring,10.02,Evil Geniuses,0,Golden Guardians,Elise,Gangplank,Rumble,Taliyah,Gragas,Akali,Lucian,Senna,Jarvan IV,LeBlanc,Tahm Kench,Sona,Orianna,Rek'Sai,Aatrox,Nautilus,Aphelios,Syndra,Lee Sin,Fiora
+LCS.A,Spring,10.02,Cloud9 Academy,0,Immortals Academy,Elise,Soraka,Pantheon,Urgot,Ornn,Akali,Rumble,Lucian,Rek'Sai,Olaf,Nautilus,Aphelios,Yasuo,Gragas,Sett,Leona,Syndra,Kled,Lee Sin,Nocturne
+LCS,Spring,10.02,Team Liquid,1,FlyQuest,Qiyana,Blitzcrank,Rumble,Thresh,Aatrox,Akali,Sett,Tahm Kench,LeBlanc,Ekko,Braum,Aphelios,Zoe,Jarvan IV,Ornn,Rakan,Senna,Syndra,Lee Sin,Mordekaiser
+LCS,Spring,10.02,Evil Geniuses,0,Team SoloMid,Elise,Gangplank,Rumble,Zilean,Qiyana,Akali,Tahm Kench,Jarvan IV,Syndra,Lee Sin,Thresh,Aphelios,LeBlanc,Kindred,Aatrox,Rakan,Xayah,Zoe,Gragas,Sett
+LCS,Spring,10.02,100 Thieves,0,Cloud9,Elise,Tahm Kench,Rumble,Syndra,Zoe,Akali,Sett,Lucian,Xayah,Aphelios,Leona,Miss Fortune,LeBlanc,Jarvan IV,Aatrox,Nautilus,Senna,Morgana,Lee Sin,Camille
+LCS,Spring,10.02,Immortals,1,Golden Guardians,Irelia,Elise,Kayle,Fiora,Camille,Akali,Lucian,Rumble,Zoe,Jarvan IV,Rakan,Xayah,Syndra,Rek'Sai,Sett,Tahm Kench,Senna,LeBlanc,Lee Sin,Soraka
+LCS.A,Spring,10.02,100 Thieves Academy,1,Team Liquid Academy,Jarvan IV,Rumble,Tahm Kench,Ryze,Ornn,Lucian,Elise,Senna,Olaf,Aatrox,Rakan,Xayah,Akali,Rek'Sai,Mordekaiser,Thresh,Aphelios,Sylas,Lee Sin,Sett
+LCS.A,Spring,10.02,FlyQuest Academy,0,Dignitas Academy,Elise,Tahm Kench,Syndra,Olaf,Gragas,Akali,Rumble,Sett,Azir,Qiyana,Blitzcrank,Aphelios,Lissandra,Rek'Sai,Ornn,Thresh,Senna,LeBlanc,Lee Sin,Aatrox
+LCS.A,Spring,10.02,Golden Guardians Academy,0,Evil Geniuses Academy,Elise,Senna,Ornn,LeBlanc,Ekko,Akali,Rumble,Lucian,Rek'Sai,Braum,Thresh,Aphelios,Syndra,Lee Sin,Aatrox,Nautilus,Miss Fortune,Zoe,Jarvan IV,Sett
+LCS.A,Spring,10.02,TSM Academy,1,CLG Academy,Elise,Senna,Sett,Gragas,Orianna,Akali,Rumble,Soraka,Leona,Braum,Nautilus,Aphelios,Syndra,Jarvan IV,Gangplank,Rakan,Xayah,LeBlanc,Trundle,Ornn
+LCS,Spring,10.02,FlyQuest,1,Dignitas,Lucian,Elise,Tahm Kench,Syndra,Orianna,Akali,Blitzcrank,Riven,Nautilus,Leona,Alistar,Senna,Rumble,Jarvan IV,Aatrox,Thresh,Aphelios,Ekko,Lee Sin,Sett
+LCS,Spring,10.02,Team SoloMid,1,Counter Logic Gaming,Lucian,Jarvan IV,Lee Sin,Mordekaiser,Aatrox,Akali,Rumble,Sett,Gragas,Elise,Rakan,Xayah,Syndra,Qiyana,Ornn,Tahm Kench,Senna,LeBlanc,Olaf,Sylas
+LCS.A,Spring,10.02,Evil Geniuses Academy,0,CLG Academy,Elise,Gragas,Lucian,Rek'Sai,Mordekaiser,Akali,Rumble,Sett,LeBlanc,Orianna,Tahm Kench,Senna,Zoe,Jarvan IV,Ornn,Thresh,Aphelios,Syndra,Lee Sin,Gangplank
+LCS.A,Spring,10.02,Team Liquid Academy,0,FlyQuest Academy,Elise,Lucian,Aphelios,LeBlanc,Camille,Akali,Rumble,Sett,Lee Sin,Olaf,Tahm Kench,Varus,Yasuo,Sejuani,Soraka,Braum,Miss Fortune,Azir,Jarvan IV,Irelia
+LCS.A,Spring,10.02,Golden Guardians Academy,0,TSM Academy,Elise,Senna,Lucian,Zoe,Orianna,Akali,Sett,Rumble,Mordekaiser,Aatrox,Thresh,Syndra,Cassiopeia,Lee Sin,Gangplank,Nautilus,Aphelios,Viktor,Jarvan IV,Ornn
+LCS.A,Spring,10.02,Immortals Academy,1,100 Thieves Academy,Elise,Aphelios,Lucian,Mordekaiser,Aatrox,Akali,Senna,Rumble,Diana,Jarvan IV,Leona,Miss Fortune,Zoe,Rek'Sai,Sett,Rakan,Xayah,Syndra,Lee Sin,Gangplank
+LCS.A,Spring,10.02,Dignitas Academy,1,Cloud9 Academy,Elise,Aphelios,Lucian,Ornn,Yasuo,Olaf,Akali,Sett,Renekton,Lee Sin,Thresh,Miss Fortune,Rumble,Jarvan IV,Aatrox,Tahm Kench,Senna,Qiyana,Gragas,Gangplank
+LCS,Spring,10.02,Evil Geniuses,0,Counter Logic Gaming,Gangplank,Lucian,Rumble,Kayle,Mordekaiser,Akali,Tahm Kench,LeBlanc,Lee Sin,Gragas,Rakan,Xayah,Orianna,Elise,Sett,Nautilus,Aphelios,Syndra,Jarvan IV,Soraka
+LCS,Spring,10.02,100 Thieves,1,Team Liquid,Rumble,Jarvan IV,Xayah,Elise,LeBlanc,Akali,Sett,Lucian,Qiyana,Braum,Thresh,Aphelios,Orianna,Gragas,Aatrox,Tahm Kench,Senna,Syndra,Lee Sin,Gangplank
+LCS,Spring,10.02,Team SoloMid,1,Dignitas,Lucian,Gangplank,Tahm Kench,Renekton,Pantheon,Akali,Rumble,Xayah,Jarvan IV,LeBlanc,Leona,Miss Fortune,Syndra,Sett,Irelia,Braum,Aphelios,Vel'Koz,Elise,Kennen
+LCS,Spring,10.02,Cloud9,1,FlyQuest,Riven,Lucian,Blitzcrank,Syndra,Orianna,Akali,Sett,Elise,Camille,LeBlanc,Nautilus,Aphelios,Qiyana,Gragas,Rumble,Tahm Kench,Senna,Diana,Jarvan IV,Aatrox
+LCS.A,Spring,10.02,100 Thieves Academy,1,Cloud9 Academy,Elise,Thresh,Rumble,Gragas,Olaf,Akali,Syndra,Senna,Jarvan IV,Rek'Sai,Rakan,Xayah,Orianna,Sett,Aatrox,Leona,Aphelios,LeBlanc,Lee Sin,Mordekaiser
+LCS,Spring,10.02,Immortals,1,100 Thieves,Lucian,Aatrox,Xayah,Yasuo,Zoe,Akali,Rumble,Sett,LeBlanc,Ornn,Braum,Aphelios,Syndra,Rek'Sai,Cho'Gath,Thresh,Senna,Orianna,Gragas,Gangplank
+LCS,Spring,10.02,Golden Guardians,0,Team SoloMid,Syndra,Irelia,Gangplank,LeBlanc,Camille,Akali,Rumble,Sett,Lee Sin,Elise,Thresh,Aphelios,Zoe,Jarvan IV,Aatrox,Rakan,Xayah,Ornn,Gragas,Qiyana
+LCS,Spring,10.02,Dignitas,0,Cloud9,Elise,Sett,Irelia,Gragas,LeBlanc,Rumble,Lucian,Akali,Jarvan IV,Olaf,Tahm Kench,Senna,Orianna,Rek'Sai,Gangplank,Nautilus,Aphelios,Zoe,Lee Sin,Aatrox
+LCS,Spring,10.02,FlyQuest,0,Evil Geniuses,Tahm Kench,Soraka,Lucian,LeBlanc,Syndra,Akali,Rumble,Sett,Riven,Orianna,Nautilus,Aphelios,Zoe,Lee Sin,Camille,Rakan,Xayah,Malzahar,Jarvan IV,Aatrox
+LCS.A,Spring,10.02,TSM Academy,0,Dignitas Academy,Syndra,Tahm Kench,Aatrox,LeBlanc,Qiyana,Akali,Rumble,Sett,Nautilus,Braum,Rakan,Aphelios,Zoe,Lee Sin,Ornn,Thresh,Senna,Ekko,Rek'Sai,Mordekaiser
+LCS.A,Spring,10.02,CLG Academy,0,Immortals Academy,Elise,Soraka,Sett,Yasuo,Braum,Akali,Aphelios,Rumble,Jarvan IV,Rek'Sai,Nautilus,Miss Fortune,Syndra,Lee Sin,Gangplank,Rakan,Xayah,Ornn,Gragas,Lucian
+LCS.A,Spring,10.02,FlyQuest Academy,0,Evil Geniuses Academy,Olaf,Thresh,Sett,Ornn,LeBlanc,Akali,Rumble,Lucian,Aphelios,Pantheon,Tahm Kench,Senna,Syndra,Elise,Aatrox,Nautilus,Miss Fortune,Orianna,Jarvan IV,Gangplank
+LCS.A,Spring,10.02,Team Liquid Academy,1,Golden Guardians Academy,Syndra,Sett,Elise,Jarvan IV,Olaf,Akali,Rumble,Lucian,Yasuo,Thresh,Nautilus,Miss Fortune,Ornn,Gragas,Aatrox,Braum,Aphelios,Mordekaiser,Rek'Sai,Gangplank
+LCS,Spring,10.02,Team Liquid,0,Golden Guardians,Lucian,Soraka,Sett,Syndra,Mordekaiser,Akali,Xayah,Aphelios,LeBlanc,Gangplank,Galio,Senna,Rumble,Jarvan IV,Kennen,Thresh,Miss Fortune,Zoe,Lee Sin,Aatrox
+LCS,Spring,10.02,Counter Logic Gaming,0,Immortals,Gragas,Rek'Sai,Sett,Qiyana,Rakan,Akali,Aphelios,Jarvan IV,Zoe,Braum,Leona,Miss Fortune,Rumble,Lee Sin,Aatrox,Nautilus,Xayah,Azir,Elise,Ornn
+LCS.A,Spring,10.03,Golden Guardians Academy,1,CLG Academy,Elise,Yuumi,Soraka,Viktor,Cassiopeia,Syndra,Rumble,Lucian,Jarvan IV,Galio,Rakan,Xayah,Azir,Sejuani,Sett,Braum,Aphelios,Orianna,Gragas,Ornn
+LCS.A,Spring,10.03,Dignitas Academy,1,100 Thieves Academy,Elise,Lucian,Sett,Gragas,Sejuani,Tahm Kench,Syndra,Thresh,Leona,Nautilus,Rakan,Aphelios,Rumble,Rek'Sai,Aatrox,Senna,Ornn,Azir,Olaf,Renekton
+LCS.A,Spring,10.03,Evil Geniuses Academy,0,Cloud9 Academy,Elise,Lucian,Gragas,LeBlanc,Akali,Rumble,Sett,Soraka,Mordekaiser,Syndra,Rakan,Xayah,Orianna,Jarvan IV,Gangplank,Thresh,Aphelios,Zoe,Rek'Sai,Ornn
+LCS.A,Spring,10.03,TSM Academy,1,FlyQuest Academy,Elise,Jarvan IV,Syndra,Azir,LeBlanc,Rumble,Sett,Pantheon,Qiyana,Lucian,Nautilus,Aphelios,Zoe,Gragas,Camille,Braum,Miss Fortune,Orianna,Rek'Sai,Aatrox
+LCS.A,Spring,10.03,Team Liquid Academy,1,Immortals Academy,Senna,Pantheon,Syndra,Xayah,Ezreal,Aphelios,Elise,Kalista,Jarvan IV,Karthus,Nautilus,Miss Fortune,Ornn,Rek'Sai,Soraka,Sett,Varus,Mordekaiser,Lee Sin,Tristana
+LCS,Spring,10.03,Team Liquid,0,Immortals,Sett,Syndra,Miss Fortune,Gragas,Elise,Aphelios,Xayah,Aatrox,Olaf,LeBlanc,Taric,Kalista,Ryze,Lee Sin,Ornn,Nautilus,Ezreal,Cassiopeia,Sejuani,Gangplank
+LCS,Spring,10.03,Cloud9,1,Team SoloMid,Syndra,Xayah,Ornn,Yasuo,Pantheon,Rumble,Aphelios,Soraka,Lee Sin,Olaf,Tahm Kench,Varus,Qiyana,Elise,Sett,Nautilus,Miss Fortune,Renekton,Gragas,Akali
+LCS,Spring,10.03,Counter Logic Gaming,0,Golden Guardians,Qiyana,Lee Sin,Aphelios,Zoe,Elise,Rumble,Syndra,Soraka,LeBlanc,Olaf,Yuumi,Ezreal,Neeko,Trundle,Aatrox,Nautilus,Kai'Sa,Cassiopeia,Sejuani,Sett
+LCS,Spring,10.03,100 Thieves,0,Dignitas,Rumble,Elise,Lucian,LeBlanc,Braum,Aatrox,Xayah,Irelia,Jarvan IV,Zoe,Nautilus,Aphelios,Ryze,Lee Sin,Sett,Leona,Miss Fortune,Ornn,Olaf,Soraka
+LCS.A,Spring,10.03,TSM Academy,0,Cloud9 Academy,Elise,Gragas,Rumble,LeBlanc,Soraka,Aphelios,Sett,Ornn,Xayah,Camille,Nautilus,Varus,Syndra,Jarvan IV,Gangplank,Thresh,Miss Fortune,Zoe,Rek'Sai,Aatrox
+LCS,Spring,10.03,Dignitas,0,Golden Guardians,Lee Sin,Sett,Aatrox,Cassiopeia,Syndra,Rumble,Soraka,Lucian,LeBlanc,Nautilus,Leona,Miss Fortune,Orianna,Elise,Gangplank,Thresh,Aphelios,Diana,Jarvan IV,Ornn
+LCS,Spring,10.03,Counter Logic Gaming,0,Team Liquid,Xayah,Ornn,Miss Fortune,LeBlanc,Qiyana,Yuumi,Aphelios,Soraka,Olaf,Rumble,Nautilus,Kai'Sa,Yasuo,Gragas,Sett,Tahm Kench,Varus,Vladimir,Sejuani,Mordekaiser
+LCS,Spring,10.03,Team SoloMid,0,FlyQuest,Riven,Soraka,Jarvan IV,Olaf,Zoe,Sett,Rumble,Lucian,Gragas,LeBlanc,Braum,Aphelios,Taliyah,Pantheon,Aatrox,Yuumi,Miss Fortune,Syndra,Lee Sin,Ornn
+LCS,Spring,10.03,Evil Geniuses,1,Immortals,Soraka,Nautilus,Xayah,Syndra,Leona,Aphelios,Sett,Aatrox,Mordekaiser,Sivir,Yuumi,Lucian,LeBlanc,Lee Sin,Renekton,Braum,Ezreal,Corki,Rek'Sai,Ornn
+LCS.A,Spring,10.03,FlyQuest Academy,0,100 Thieves Academy,Elise,Olaf,Syndra,Renekton,LeBlanc,Rumble,Rek'Sai,Lee Sin,Gragas,Jarvan IV,Rakan,Xayah,Lucian,Karthus,Sett,Nautilus,Aphelios,Cassiopeia,Sejuani,Aatrox
+LCS.A,Spring,10.03,Evil Geniuses Academy,0,Immortals Academy,Syndra,Sett,Lee Sin,LeBlanc,Pantheon,Rumble,Ornn,Aphelios,Soraka,Orianna,Yuumi,Ezreal,Malzahar,Olaf,Aatrox,Leona,Miss Fortune,Zoe,Elise,Nocturne
+LCS.A,Spring,10.03,Dignitas Academy,0,Golden Guardians Academy,Lucian,Soraka,Olaf,Azir,Ezreal,Syndra,Sett,Elise,Nautilus,Thresh,Galio,Senna,Rumble,Sejuani,Aatrox,Yuumi,Aphelios,Cassiopeia,Jarvan IV,Ornn
+LCS.A,Spring,10.03,CLG Academy,0,Team Liquid Academy,Ornn,Soraka,Karthus,Aatrox,Sett,Lucian,Yuumi,Gangplank,Senna,Miss Fortune,Galio,Ezreal,Rumble,Rek'Sai,Cassiopeia,Nautilus,Aphelios,Zoe,Jarvan IV,Mordekaiser
+LCS,Spring,10.03,FlyQuest,1,100 Thieves,Soraka,Senna,Sett,Gragas,LeBlanc,Rumble,Yuumi,Riven,Lee Sin,Olaf,Thresh,Aphelios,Syndra,Trundle,Ornn,Rakan,Xayah,Zoe,Sejuani,Aatrox
+LCS,Spring,10.03,Evil Geniuses,0,Cloud9,Elise,Nautilus,Tahm Kench,Qiyana,Yasuo,Aphelios,Sett,Yuumi,Olaf,LeBlanc,Rakan,Xayah,Rumble,Jarvan IV,Renekton,Leona,Miss Fortune,Cassiopeia,Gragas,Aatrox
+LCS.A,Spring,10.03,FlyQuest Academy,0,Golden Guardians Academy,Soraka,Aphelios,Syndra,Thresh,Rakan,Karthus,Yuumi,Ziggs,Olaf,Trundle,Braum,Varus,Azir,Kindred,Ornn,Sett,Miss Fortune,Viktor,Sejuani,Gangplank
+LCS.A,Spring,10.03,100 Thieves Academy,0,TSM Academy,Elise,Zoe,Nautilus,Thresh,Senna,Ornn,Aphelios,Olaf,Aatrox,Syndra,Yuumi,Miss Fortune,Azir,Sejuani,Renekton,Braum,Varus,Soraka,Trundle,Sett
+LCS.A,Spring,10.03,Dignitas Academy,1,Immortals Academy,Yuumi,Lucian,Aphelios,LeBlanc,Sejuani,Aatrox,Rumble,Thresh,Trundle,Olaf,Tahm Kench,Varus,Syndra,Jarvan IV,Soraka,Blitzcrank,Miss Fortune,Ornn,Elise,Pantheon
+LCS.A,Spring,10.03,Evil Geniuses Academy,1,Team Liquid Academy,Kennen,Soraka,Yuumi,Jarvan IV,Lee Sin,Senna,Rumble,Leona,Ziggs,Olaf,Braum,Aphelios,Zoe,Sejuani,Sett,Nautilus,Miss Fortune,Viktor,Karthus,Ornn
+LCS.A,Spring,10.03,Cloud9 Academy,1,CLG Academy,Yuumi,Soraka,Rumble,Syndra,Jarvan IV,Thresh,Sett,Senna,Lucian,Zoe,Nautilus,Miss Fortune,Cassiopeia,Rek'Sai,Ornn,Galio,Aphelios,Orianna,Karthus,Gangplank
+LCS,Spring,10.03,100 Thieves,0,Team SoloMid,Senna,Soraka,Sett,Jarvan IV,Sejuani,Aphelios,Yuumi,Ornn,Elise,Trundle,Nautilus,Miss Fortune,LeBlanc,Gragas,Aatrox,Rakan,Xayah,Syndra,Lee Sin,Kennen
+LCS,Spring,10.03,Cloud9,1,Counter Logic Gaming,Ornn,Yuumi,Soraka,Sejuani,LeBlanc,Senna,Aphelios,Elise,Qiyana,Zoe,Tahm Kench,Varus,Rumble,Lee Sin,Sett,Braum,Miss Fortune,Azir,Gragas,Aatrox
+LCS,Spring,10.03,Dignitas,1,Immortals,Xayah,Ezreal,Yuumi,Aatrox,Syndra,Rumble,Soraka,Sett,Olaf,LeBlanc,Thresh,Aphelios,Orianna,Jarvan IV,Mordekaiser,Nautilus,Miss Fortune,Corki,Sejuani,Ornn
+LCS,Spring,10.03,FlyQuest,1,Golden Guardians,Yuumi,Soraka,Ornn,LeBlanc,Gragas,Riven,Syndra,Aphelios,Sejuani,Azir,Rakan,Xayah,Orianna,Rek'Sai,Sett,Thresh,Miss Fortune,Zoe,Lee Sin,Aatrox
+LCS.A,Spring,10.03,CLG Academy,0,FlyQuest Academy,Sett,Aphelios,Yuumi,Gragas,Rumble,Syndra,Olaf,Soraka,LeBlanc,Trundle,Rakan,Xayah,Ornn,Karthus,Cassiopeia,Nautilus,Miss Fortune,Zoe,Sejuani,Aatrox
+LCS,Spring,10.03,Evil Geniuses,1,Team Liquid,Varus,Xayah,Aatrox,Cassiopeia,Syndra,Aphelios,Yuumi,Soraka,Olaf,Lee Sin,Braum,Ezreal,Zoe,Sejuani,Ornn,Tahm Kench,Ashe,Viktor,Elise,Sett
+LCS,Spring,10.03,Immortals,0,Cloud9,Nautilus,Mordekaiser,Rumble,Aatrox,LeBlanc,Aphelios,Soraka,Ornn,Sejuani,Gragas,Rakan,Xayah,Orianna,Elise,Sett,Tahm Kench,Senna,Zoe,Lee Sin,Vladimir
+LCS,Spring,10.03,Golden Guardians,0,100 Thieves,Xayah,Aatrox,Soraka,Jarvan IV,Renekton,Aphelios,Ornn,Sett,LeBlanc,Orianna,Yuumi,Ezreal,Zoe,Olaf,Gangplank,Nautilus,Miss Fortune,Syndra,Gragas,Lucian
+LCS,Spring,10.03,FlyQuest,1,Counter Logic Gaming,Soraka,Lucian,Miss Fortune,Braum,Tahm Kench,Yuumi,Aphelios,Ornn,Rumble,Zoe,Rakan,Xayah,Corki,Trundle,Sett,Thresh,Varus,Azir,Sejuani,Aatrox
+LCS.A,Spring,10.03,TSM Academy,0,Evil Geniuses Academy,Senna,Yuumi,Aatrox,Nautilus,Leona,Aphelios,Soraka,LeBlanc,Ezreal,Varus,Braum,Sivir,Zoe,Sejuani,Ornn,Thresh,Miss Fortune,Viktor,Trundle,Sett
+LCS.A,Spring,10.03,Team Liquid Academy,1,Dignitas Academy,Rumble,Sett,Thresh,Sejuani,Qiyana,Aphelios,Soraka,Yuumi,Mordekaiser,Aatrox,Braum,Miss Fortune,Zoe,Gragas,Gangplank,Tahm Kench,Varus,Syndra,Jarvan IV,Ornn
+LCS.A,Spring,10.03,Golden Guardians Academy,1,100 Thieves Academy,Aphelios,Soraka,Nautilus,Tahm Kench,Thresh,Sett,Senna,Ornn,Mordekaiser,Viktor,Yuumi,Miss Fortune,Zoe,Jarvan IV,Gangplank,Braum,Varus,Pantheon,Elise,Lucian
+LCS.A,Spring,10.03,Cloud9 Academy,1,Immortals Academy,Yuumi,Soraka,Sett,Yasuo,Pantheon,Thresh,Rek'Sai,Ornn,Lucian,Mordekaiser,Tahm Kench,Varus,Syndra,Jarvan IV,Aatrox,Senna,Ezreal,Diana,Gragas,Urgot
+LCS,Spring,10.03,Team Liquid,1,Dignitas,Rumble,Soraka,Mordekaiser,Elise,Orianna,Aphelios,Xayah,Ornn,LeBlanc,Syndra,Braum,Miss Fortune,Zoe,Lee Sin,Sett,Tahm Kench,Varus,Viktor,Jarvan IV,Pantheon
+LCS,Spring,10.03,Team SoloMid,1,Evil Geniuses,Mordekaiser,Yuumi,Aatrox,Jarvan IV,Gragas,Xayah,Aphelios,Soraka,Senna,Tahm Kench,Taric,Tristana,Syndra,Lee Sin,Ornn,Braum,Ezreal,LeBlanc,Sejuani,Sett
+LCS.A,Spring,10.04,100 Thieves Academy,1,Evil Geniuses Academy,Senna,Elise,Ornn,Olaf,Kindred,Aphelios,Yuumi,Sett,Gragas,Trundle,Braum,Ezreal,Azir,Shyvana,Pantheon,Thresh,Miss Fortune,Rumble,Sejuani,Aatrox
+LCS.A,Spring,10.04,Team Liquid Academy,1,Immortals Academy,Ezreal,Pantheon,Senna,Braum,Tahm Kench,Ornn,Aphelios,Olaf,Soraka,Aatrox,Thresh,Miss Fortune,Ziggs,Jarvan IV,Gangplank,Taric,Lucian,Sett,Diana,Yorick
+LCS.A,Spring,10.04,TSM Academy,1,CLG Academy,Yuumi,Karthus,Senna,Gangplank,Braum,Nautilus,Ornn,Aphelios,Trundle,Olaf,Taric,Miss Fortune,Zoe,Zac,Sett,Karma,Ezreal,Syndra,Sejuani,Aatrox
+LCS.A,Spring,10.04,Dignitas Academy,1,FlyQuest Academy,Lucian,Azir,Yuumi,LeBlanc,Zoe,Ornn,Tahm Kench,Syndra,Olaf,Trundle,Thresh,Aphelios,Rumble,Sejuani,Aatrox,Nautilus,Miss Fortune,Cassiopeia,Gragas,Sett
+LCS.A,Spring,10.04,Cloud9 Academy,1,Golden Guardians Academy,Yuumi,Mordekaiser,Sett,Aatrox,Irelia,Ornn,Aphelios,Senna,Cassiopeia,Zoe,Leona,Miss Fortune,Veigar,Rek'Sai,Gangplank,Nautilus,Kalista,Azir,Sejuani,Sion
+LCS,Spring,10.04,Cloud9,1,FlyQuest,Olaf,Yuumi,Riven,Corki,Qiyana,Aphelios,Ornn,Senna,Elise,Sejuani,Tahm Kench,Ezreal,Zoe,Gragas,Sett,Blitzcrank,Varus,Syndra,Lee Sin,Aatrox
+LCS,Spring,10.04,Team Liquid,1,Team SoloMid,Xayah,Senna,Syndra,Aatrox,Irelia,Ornn,Aphelios,Yuumi,Trundle,Jarvan IV,Braum,Miss Fortune,Zoe,Gragas,Sett,Tahm Kench,Varus,Maokai,Sejuani,Kayle
+LCS,Spring,10.04,Golden Guardians,1,Immortals,Yuumi,Xayah,Sett,Qiyana,Gragas,Ornn,Taric,Senna,Azir,Lee Sin,Tahm Kench,Aphelios,LeBlanc,Sejuani,Aatrox,Nautilus,Miss Fortune,Syndra,Jarvan IV,Gangplank
+LCS,Spring,10.04,100 Thieves,1,Evil Geniuses,Yuumi,Tahm Kench,LeBlanc,Aatrox,Renekton,Ornn,Senna,Syndra,Gragas,Sejuani,Nautilus,Aphelios,Orianna,Rek'Sai,Sett,Rakan,Xayah,Zoe,Lee Sin,Zac
+LCS.A,Spring,10.04,Team Liquid Academy,1,100 Thieves Academy,Pantheon,Ezreal,Tahm Kench,Jarvan IV,Azir,Ornn,Aphelios,Senna,Aatrox,Soraka,Yuumi,Miss Fortune,Zoe,Olaf,Gangplank,Nautilus,Xayah,Syndra,Trundle,Sett
+LCS,Spring,10.04,Team Liquid,1,100 Thieves,Xayah,Senna,Aphelios,Olaf,Cassiopeia,Ornn,Tahm Kench,Miss Fortune,Zoe,Lee Sin,Taric,Kalista,Syndra,Sejuani,Sett,Yuumi,Ezreal,Azir,Gragas,Aatrox
+LCS,Spring,10.04,Dignitas,0,FlyQuest,Yuumi,Riven,Syndra,Ahri,Zoe,Ornn,Soraka,Rumble,Pantheon,Orianna,Tahm Kench,Aphelios,Ziggs,Jarvan IV,Mordekaiser,Nautilus,Senna,Qiyana,Gragas,Sett
+LCS,Spring,10.04,Counter Logic Gaming,1,Team SoloMid,Xayah,Sett,Yuumi,Syndra,LeBlanc,Ornn,Aphelios,Aatrox,Pantheon,Sejuani,Tahm Kench,Varus,Viktor,Rek'Sai,Rumble,Senna,Ezreal,Zoe,Jarvan IV,Mordekaiser
+LCS,Spring,10.04,Evil Geniuses,1,Golden Guardians,Yuumi,Aatrox,Varus,Olaf,Rek'Sai,Ornn,LeBlanc,Zoe,Renekton,Nautilus,Rumble,Senna,Syndra,Lee Sin,Sett,Tahm Kench,Aphelios,Orianna,Sejuani,Mordekaiser
+LCS.A,Spring,10.04,FlyQuest Academy,1,TSM Academy,Syndra,Senna,Aphelios,Zac,Sejuani,Ornn,LeBlanc,Sett,Aatrox,Trundle,Tahm Kench,Ezreal,Zoe,Rek'Sai,Mordekaiser,Taric,Miss Fortune,Viktor,Jarvan IV,Kled
+LCS.A,Spring,10.04,CLG Academy,1,Immortals Academy,Sett,Yuumi,Nautilus,Jarvan IV,Lee Sin,Ornn,Senna,Aphelios,Rek'Sai,Sejuani,Tahm Kench,Varus,Zoe,Olaf,Gangplank,Thresh,Miss Fortune,Ziggs,Gragas,Yorick
+LCS.A,Spring,10.04,Evil Geniuses Academy,1,Golden Guardians Academy,Azir,Yuumi,Aphelios,LeBlanc,Sejuani,Senna,Zoe,Ornn,Olaf,Trundle,Tahm Kench,Ezreal,Ziggs,Elise,Sett,Nautilus,Miss Fortune,Viktor,Gragas,Aatrox
+LCS.A,Spring,10.04,Cloud9 Academy,1,Dignitas Academy,Yuumi,Soraka,Ornn,Varus,Ezreal,Rek'Sai,Aphelios,Senna,Thresh,Blitzcrank,Nautilus,Miss Fortune,Syndra,Diana,Sett,Tahm Kench,Cassiopeia,Zoe,Jarvan IV,Aatrox
+LCS,Spring,10.04,Immortals,1,Counter Logic Gaming,Rumble,Sett,Varus,Azir,Zoe,Aphelios,Ornn,Senna,Syndra,LeBlanc,Nautilus,Miss Fortune,Cassiopeia,Trundle,Camille,Braum,Ezreal,Orianna,Sejuani,Aatrox
+LCS,Spring,10.04,Cloud9,1,Dignitas,Olaf,Rumble,Ornn,Varus,Qiyana,Aphelios,Senna,Sett,Zoe,Syndra,Braum,Miss Fortune,Cassiopeia,Gragas,Aatrox,Tahm Kench,Jinx,Anivia,Elise,Lucian
+LCS.A,Spring,10.04,CLG Academy,0,Team Liquid Academy,Sett,Yuumi,Aphelios,Jarvan IV,Elise,Ornn,Tahm Kench,Ezreal,Lucian,Ryze,Taric,Senna,Syndra,Trundle,Aatrox,Thresh,Kalista,Zoe,Gragas,Gangplank
+LCS.A,Spring,10.04,Golden Guardians Academy,0,Dignitas Academy,Olaf,Yuumi,Aatrox,Qiyana,Pantheon,Aphelios,Ornn,Senna,Azir,Cassiopeia,Taric,Kalista,Syndra,Elise,Sett,Tahm Kench,Varus,Zoe,Lee Sin,Mordekaiser
+LCS.A,Spring,10.04,100 Thieves Academy,1,Immortals Academy,Sett,Yuumi,Zoe,Varus,Nocturne,Ornn,Aphelios,Senna,Elise,Gragas,Braum,Miss Fortune,LeBlanc,Pantheon,Aatrox,Tahm Kench,Cassiopeia,Morgana,Rek'Sai,Urgot
+LCS.A,Spring,10.04,Evil Geniuses Academy,1,FlyQuest Academy,Yuumi,Miss Fortune,Aatrox,LeBlanc,Azir,Ornn,Aphelios,Sett,Jarvan IV,Rek'Sai,Galio,Senna,Zoe,Zac,Renekton,Tahm Kench,Ziggs,Malzahar,Lee Sin,Gangplank
+LCS.A,Spring,10.04,TSM Academy,0,Cloud9 Academy,Rek'Sai,Thresh,Tahm Kench,Gangplank,LeBlanc,Aphelios,Ornn,Sett,Sejuani,Zac,Nautilus,Senna,Ziggs,Lee Sin,Aatrox,Morgana,Caitlyn,Syndra,Jarvan IV,Camille
+LCS,Spring,10.04,Team SoloMid,1,Cloud9,Tahm Kench,Senna,Pantheon,Gangplank,Aatrox,Syndra,Ornn,Aphelios,Gragas,Sejuani,Rakan,Xayah,Zilean,Jarvan IV,Sett,Leona,Miss Fortune,Zoe,Lee Sin,Shen
+LCS,Spring,10.04,Dignitas,0,100 Thieves,Yuumi,Sett,Xayah,Gangplank,Rek'Sai,Rumble,Ornn,Senna,Orianna,LeBlanc,Tahm Kench,Aphelios,Zoe,Lee Sin,Aatrox,Nautilus,Miss Fortune,Syndra,Trundle,Renekton
+LCS,Spring,10.04,Team Liquid,0,Counter Logic Gaming,Rumble,Senna,Yuumi,Cassiopeia,Sejuani,Sett,Elise,Mordekaiser,Zoe,Gragas,Braum,Miss Fortune,Viktor,Lee Sin,Ornn,Thresh,Aphelios,Syndra,Trundle,Janna
+LCS,Spring,10.04,Evil Geniuses,1,FlyQuest,Riven,Syndra,Sett,Viktor,Cassiopeia,Ornn,Tahm Kench,LeBlanc,Zoe,Rek'Sai,Nautilus,Senna,Taliyah,Pantheon,Mordekaiser,Shen,Aphelios,Ahri,Lee Sin,Aatrox
+LCS.A,Spring,10.04,TSM Academy,1,Team Liquid Academy,Zoe,Kalista,Yuumi,Sejuani,Jarvan IV,Aphelios,Senna,Ornn,LeBlanc,Syndra,Braum,Miss Fortune,Azir,Olaf,Gangplank,Tahm Kench,Varus,Corki,Gragas,Sett
+LCS,Spring,10.04,100 Thieves,1,Immortals,Syndra,Rek'Sai,Senna,Sejuani,Corki,Ornn,Aphelios,Sett,Trundle,Azir,Nautilus,Miss Fortune,Zoe,Gragas,Aatrox,Tahm Kench,Varus,LeBlanc,Lee Sin,Camille
+LCS,Spring,10.04,FlyQuest,0,Team SoloMid,Syndra,Tahm Kench,Xayah,Zilean,LeBlanc,Ornn,Senna,Rumble,Olaf,Sejuani,Thresh,Aphelios,Orianna,Zac,Aatrox,Nautilus,Miss Fortune,Irelia,Gragas,Sett
+LCS,Spring,10.04,Golden Guardians,1,Dignitas,Qiyana,Janna,Rumble,Corki,Gragas,Ornn,Aphelios,Senna,Olaf,LeBlanc,Sett,Kalista,Syndra,Pantheon,Aatrox,Thresh,Miss Fortune,Zoe,Rek'Sai,Mordekaiser
+LCS,Spring,10.04,Counter Logic Gaming,0,Evil Geniuses,Yuumi,Xayah,Senna,Aatrox,Jarvan IV,Ornn,Sett,Aphelios,Rek'Sai,Sejuani,Braum,Ashe,Syndra,Gragas,Gangplank,Tahm Kench,Varus,Ekko,Lee Sin,Jayce
+LCS.A,Spring,10.04,FlyQuest Academy,0,Cloud9 Academy,Rek'Sai,Yuumi,Aphelios,Leona,Gragas,Sett,Ornn,Tahm Kench,Ziggs,Malzahar,Nautilus,Senna,LeBlanc,Lee Sin,Aatrox,Shen,Miss Fortune,Zoe,Jarvan IV,Camille
+LCS.A,Spring,10.04,CLG Academy,0,Evil Geniuses Academy,Senna,Tahm Kench,Yuumi,Jarvan IV,Elise,Ornn,Aphelios,Sett,Gangplank,Lee Sin,Nautilus,Miss Fortune,Syndra,Sejuani,Aatrox,Braum,Ezreal,Zoe,Olaf,Renekton
+LCS.A,Spring,10.04,Dignitas Academy,0,100 Thieves Academy,Yuumi,Pantheon,Kalista,Syndra,Zoe,Senna,Aphelios,Ornn,Qiyana,Rumble,Tahm Kench,Ezreal,LeBlanc,Rek'Sai,Sett,Braum,Varus,Orianna,Lee Sin,Aatrox
+LCS.A,Spring,10.04,Golden Guardians Academy,0,Immortals Academy,Pantheon,Yuumi,Tahm Kench,Ezreal,Braum,Ornn,Aphelios,Senna,Sejuani,Jarvan IV,Nautilus,Miss Fortune,Qiyana,Gragas,Sett,Rakan,Xayah,Zoe,Rek'Sai,Aatrox
+LCS,Spring,10.04,Immortals,1,Team Liquid,Aatrox,Mordekaiser,Gangplank,Sejuani,Jarvan IV,Ornn,Senna,Sett,Braum,Thresh,Tahm Kench,Aphelios,Qiyana,Gragas,Renekton,Nautilus,Miss Fortune,Zoe,Olaf,Zac
+LCS,Spring,10.04,Cloud9,1,Golden Guardians,Kalista,Yuumi,Tahm Kench,Jarvan IV,Olaf,Senna,Ornn,Qiyana,Gragas,Miss Fortune,Pyke,Syndra,Taliyah,Pantheon,Sett,Nautilus,Aphelios,Zoe,Sejuani,Aatrox
+LCS.A,Spring,10.05,TSM Academy,1,Golden Guardians Academy,Yuumi,Tahm Kench,Pantheon,Gangplank,Braum,Senna,Aphelios,Ornn,Olaf,Trundle,Taric,Kalista,Syndra,Zac,Sett,Nautilus,Ezreal,Zoe,Sejuani,Kled
+LCS.A,Spring,10.05,Cloud9 Academy,1,100 Thieves Academy,Pantheon,Kalista,Braum,Sejuani,Gragas,Senna,Aphelios,Yuumi,Jarvan IV,Olaf,Tahm Kench,Ezreal,Qiyana,Elise,Ornn,Nautilus,Varus,Diana,Rek'Sai,Sett
+LCS.A,Spring,10.05,Immortals Academy,0,FlyQuest Academy,Yuumi,Tahm Kench,Aatrox,Azir,Zoe,Aphelios,Senna,Ornn,Olaf,Trundle,Taric,Kalista,Karma,Rek'Sai,Nocturne,Thresh,Kai'Sa,Syndra,Sejuani,Sett
+LCS.A,Spring,10.05,Dignitas Academy,0,CLG Academy,Trundle,Yuumi,Kalista,Ornn,Gangplank,Senna,Aphelios,Olaf,Elise,Karthus,Braum,Ezreal,Zoe,Gragas,Sett,Rakan,Miss Fortune,Orianna,Sejuani,Renekton
+LCS.A,Spring,10.05,Team Liquid Academy,0,Evil Geniuses Academy,Sejuani,Tahm Kench,Ezreal,Cassiopeia,Pantheon,Aphelios,Senna,Zoe,Gragas,Karthus,Thresh,Kalista,Irelia,Taliyah,Sett,Nautilus,Miss Fortune,Renekton,Elise,Ornn
+LCS.A,Spring,10.05,Golden Guardians Academy,0,Team Liquid Academy,Yuumi,Tahm Kench,Senna,Irelia,Gragas,Aphelios,Kalista,Pantheon,Jarvan IV,Sejuani,Rakan,Xayah,Ornn,Karthus,Sett,Nautilus,Miss Fortune,Sylas,Olaf,Gangplank
+LCS.A,Spring,10.05,Evil Geniuses Academy,1,Dignitas Academy,Aatrox,Thresh,,Syndra,Rumble,Sejuani,Yuumi,Ornn,Jarvan IV,Trundle,Tahm Kench,Aphelios,Zoe,Lee Sin,Sett,Morgana,Senna,Cassiopeia,Olaf,Neeko
+LCS.A,Spring,10.05,CLG Academy,0,Cloud9 Academy,Rek'Sai,Jarvan IV,Yuumi,Zoe,Azir,Senna,Aphelios,Kalista,Pantheon,Cassiopeia,Pyke,Taliyah,Sylas,Sejuani,Aatrox,Tahm Kench,Varus,Ornn,Zac,Camille
+LCS.A,Spring,10.05,100 Thieves Academy,1,FlyQuest Academy,Yuumi,Zoe,Tahm Kench,Varus,Kalista,Aphelios,Senna,Pantheon,Olaf,Trundle,Nautilus,Miss Fortune,Sylas,Graves,Ornn,Thresh,Kai'Sa,Azir,Sejuani,Sett
+LCS.A,Spring,10.05,Immortals Academy,0,TSM Academy,Kalista,Syndra,Yuumi,Sejuani,Gragas,Senna,Tahm Kench,Aphelios,Ezreal,Rakan,Thresh,Varus,Zoe,Rek'Sai,Ornn,Braum,Miss Fortune,Azir,Trundle,Gangplank
+LCS,Spring,10.05,Team SoloMid,1,Golden Guardians,Tahm Kench,Kalista,Yuumi,Zoe,LeBlanc,Senna,Sett,Pantheon,Lee Sin,Rek'Sai,Thresh,Aphelios,Syndra,Sejuani,Aatrox,Nautilus,Varus,Rumble,Jarvan IV,Kennen
+LCS,Spring,10.05,Cloud9,1,100 Thieves,Olaf,Xayah,Renekton,Rek'Sai,Yuumi,Senna,Pantheon,Sett,Irelia,Nautilus,Thresh,Syndra,Yasuo,Gragas,Kalista,Tahm Kench,Aphelios,LeBlanc,Trundle,Ornn
+LCS,Spring,10.05,Team Liquid,0,Evil Geniuses,Senna,Yuumi,Xayah,Gragas,Pantheon,Ornn,Sett,Aphelios,Rek'Sai,Syndra,Braum,Varus,Cassiopeia,Trundle,Mordekaiser,Tahm Kench,Ashe,LeBlanc,Lee Sin,Aatrox
+LCS,Spring,10.05,Dignitas,1,Counter Logic Gaming,Syndra,Tahm Kench,Aphelios,Olaf,Sylas,Senna,Kalista,Sett,Varus,Taliyah,Thresh,Kai'Sa,Rumble,Pantheon,Fiora,Nautilus,Miss Fortune,Ornn,Karthus,Irelia
+LCS,Spring,10.05,FlyQuest,1,Immortals,Ornn,Tahm Kench,Syndra,LeBlanc,Qiyana,Senna,Pantheon,Aphelios,Karthus,Jarvan IV,Rakan,Xayah,Viktor,Gragas,Sett,Morgana,Miss Fortune,Cassiopeia,Trundle,Aatrox
+LCS,Spring,10.05,Golden Guardians,0,Team Liquid,Ornn,Taric,Sett,Lee Sin,Jarvan IV,Senna,Aphelios,Pantheon,Rek'Sai,Sejuani,Tahm Kench,Varus,Syndra,Elise,Renekton,Rakan,Xayah,Zoe,Gragas,Gangplank
+LCS,Spring,10.05,Counter Logic Gaming,0,Cloud9,Sett,Kalista,Pantheon,Thresh,Ornn,Senna,Karthus,Olaf,Sejuani,Renekton,Tahm Kench,Varus,Rumble,Rek'Sai,Jayce,Bard,Aphelios,Yasuo,Gragas,Irelia
+LCS,Spring,10.05,Immortals,1,Team SoloMid,Kalista,Syndra,Aatrox,LeBlanc,Thresh,Sett,Aphelios,Senna,Rumble,Miss Fortune,Rakan,Ezreal,Orianna,Jarvan IV,Ornn,Nautilus,Xayah,Diana,Sejuani,Gangplank
+LCS,Spring,10.05,100 Thieves,1,FlyQuest,Syndra,Gangplank,Pantheon,Viktor,Corki,Senna,Sett,Gragas,LeBlanc,Thresh,Nautilus,Aphelios,Orianna,Trundle,Aatrox,Braum,Miss Fortune,Ahri,Rek'Sai,Ornn
+LCS,Spring,10.05,Evil Geniuses,1,Dignitas,Rumble,Kalista,Pantheon,Orianna,Miss Fortune,Senna,Sett,Ornn,LeBlanc,Olaf,Tahm Kench,Aphelios,Ryze,Lee Sin,Aatrox,Nautilus,Syndra,Qiyana,Gragas,Fiora
+LCS.A,Spring,10.06,CLG Academy,0,Golden Guardians Academy,Yuumi,Tahm Kench,Pantheon,Azir,Morgana,Aphelios,Kalista,Xayah,Syndra,Zoe,Leona,Miss Fortune,Irelia,Sejuani,Vladimir,Braum,Varus,Karma,Olaf,Sett
+LCS.A,Spring,10.06,Dignitas Academy,1,Immortals Academy,Yuumi,Zoe,Aphelios,Sejuani,Lee Sin,Senna,Olaf,Tahm Kench,Trundle,Rek'Sai,Braum,Varus,Qiyana,Gragas,Sett,Thresh,Kalista,Rumble,Pantheon,Ornn
+LCS.A,Spring,10.06,FlyQuest Academy,1,Team Liquid Academy,Yuumi,Kalista,Gangplank,Gragas,Olaf,Tahm Kench,Sett,Senna,Azir,LeBlanc,Thresh,Aphelios,Pantheon,Sejuani,Ornn,Nautilus,Kai'Sa,Irelia,Elise,Aatrox
+LCS.A,Spring,10.06,TSM Academy,1,100 Thieves Academy,Pantheon,Tahm Kench,Ornn,Sylas,Gragas,Senna,Kalista,Yuumi,Elise,Olaf,Braum,Aphelios,Syndra,Jarvan IV,Renekton,Nautilus,Miss Fortune,Orianna,Sett,Gangplank
+LCS.A,Spring,10.06,Cloud9 Academy,1,Evil Geniuses Academy,Yuumi,Tahm Kench,Renekton,Lee Sin,Sejuani,Aphelios,Kalista,Syndra,Olaf,Trundle,Braum,Ezreal,LeBlanc,Rek'Sai,Sett,Nautilus,Kai'Sa,Qiyana,Elise,Ornn
+LCS.A,Spring,10.06,100 Thieves Academy,0,CLG Academy,Yuumi,Tahm Kench,Zoe,Sylas,Thresh,Aphelios,Pantheon,Elise,Azir,Karthus,Rakan,Xayah,LeBlanc,Lee Sin,Ornn,Sett,Kalista,Syndra,Graves,Gangplank
+LCS.A,Spring,10.06,Golden Guardians Academy,1,FlyQuest Academy,Yuumi,Tahm Kench,Renekton,Jarvan IV,Syndra,Senna,Aphelios,Kalista,LeBlanc,Gragas,Rakan,Xayah,Zoe,Olaf,Sett,Thresh,Miss Fortune,Lissandra,Rek'Sai,Ornn
+LCS.A,Spring,10.06,Dignitas Academy,1,TSM Academy,Yuumi,Senna,Aphelios,Syndra,Zoe,Tahm Kench,Sett,Kalista,Gragas,LeBlanc,Braum,Ezreal,Akali,Jarvan IV,Ornn,Rakan,Varus,Azir,Sejuani,Gangplank
+LCS.A,Spring,10.06,Team Liquid Academy,0,Cloud9 Academy,Tahm Kench,Senna,Syndra,Rek'Sai,Gragas,Aphelios,Kalista,Sett,Jarvan IV,Olaf,Thresh,Kai'Sa,Irelia,Sejuani,Sylas,Nautilus,Miss Fortune,Renekton,Elise,Ornn
+LCS.A,Spring,10.06,Evil Geniuses Academy,1,Immortals Academy,Mordekaiser,Urgot,Aphelios,Jarvan IV,Varus,Senna,Sett,Ornn,Sejuani,Olaf,Thresh,Kai'Sa,Irelia,Morgana,Maokai,Pyke,Taliyah,Karma,Pantheon,Zac
+LCS,Spring,10.06,Team SoloMid,0,100 Thieves,Kalista,Renekton,LeBlanc,Gragas,Zoe,Sett,Syndra,Senna,Zilean,Kindred,Tahm Kench,Varus,Azir,Jarvan IV,Aatrox,Nautilus,Aphelios,Viktor,Trundle,Ornn
+LCS,Spring,10.06,Cloud9,1,Evil Geniuses,LeBlanc,Pantheon,Tahm Kench,Ekko,Ryze,Kalista,Senna,Syndra,Thresh,Braum,Shen,Aphelios,Ornn,Gragas,Quinn,Nautilus,Kai'Sa,Kayle,Lee Sin,Renekton
+LCS,Spring,10.06,FlyQuest,1,Team Liquid,Ornn,Tahm Kench,LeBlanc,Gragas,Jarvan IV,Senna,Pantheon,Sett,Olaf,Elise,Rakan,Xayah,Syndra,Trundle,Aatrox,Taric,Kalista,Zoe,Rek'Sai,Renekton
+LCS,Spring,10.06,Counter Logic Gaming,0,Golden Guardians,Sett,Ornn,Syndra,Yuumi,Karma,Senna,Pantheon,Rumble,Elise,Gragas,Tahm Kench,Ezreal,Corki,Sejuani,Renekton,Ziggs,Varus,Sylas,Jarvan IV,Aatrox
+LCS,Spring,10.06,Immortals,0,Dignitas,Kalista,Rumble,Sett,Viktor,Sejuani,Senna,Renekton,Varus,Rakan,Morgana,Tahm Kench,Ezreal,Syndra,Pantheon,Ornn,Nautilus,Aphelios,Orianna,Olaf,Mordekaiser
+LCS,Spring,10.06,Golden Guardians,1,FlyQuest,Rakan,Pantheon,Syndra,Elise,Jarvan IV,Varus,Senna,Sett,Aatrox,Kalista,Nautilus,Aphelios,Zoe,Rek'Sai,Ornn,Alistar,Miss Fortune,Viktor,Trundle,Renekton
+LCS,Spring,10.06,Dignitas,1,Team SoloMid,Syndra,Varus,Xayah,Trundle,LeBlanc,Senna,Rumble,Kalista,Renekton,Olaf,Tahm Kench,Aphelios,Viktor,Lee Sin,Ornn,Yuumi,Ezreal,Azir,Sejuani,Sett
+LCS,Spring,10.06,Evil Geniuses,1,Immortals,Syndra,Tahm Kench,Ornn,Thresh,Cassiopeia,Senna,Kalista,Xayah,LeBlanc,Renekton,Braum,Aphelios,Ryze,Pantheon,Sett,Rakan,Varus,Viktor,Jarvan IV,Aatrox
+LCS,Spring,10.06,Team Liquid,0,Cloud9,Syndra,Pantheon,Gragas,Jarvan IV,Cassiopeia,Xayah,Senna,Sett,Zoe,LeBlanc,Braum,Ashe,Ornn,Elise,Aatrox,Tahm Kench,Varus,Rumble,Olaf,Renekton
+LCS,Spring,10.06,100 Thieves,1,Counter Logic Gaming,Trundle,Ornn,Senna,Rumble,Taliyah,Sett,Xayah,Olaf,Jarvan IV,Rek'Sai,Tahm Kench,Aphelios,Syndra,Sejuani,Aatrox,Braum,Varus,Ekko,Pantheon,Camille
+LCS,Spring,10.06,Dignitas,1,Immortals,Syndra,Ornn,Tahm Kench,Sylas,LeBlanc,Senna,Kalista,Rumble,Renekton,Viktor,Nautilus,Aphelios,Orianna,Pantheon,Aatrox,Leona,Miss Fortune,Zoe,Sejuani,Sett
+LCS,Spring,10.06,100 Thieves,1,FlyQuest,Trundle,Senna,Rakan,Jarvan IV,Thresh,Tahm Kench,Nautilus,Aphelios,Ezreal,Varus,Braum,Lucian,Syndra,Sejuani,Sett,Yuumi,Miss Fortune,Orianna,Pantheon,Aatrox
+LCS,Spring,10.06,Golden Guardians,1,Dignitas,Rumble,Kalista,Ornn,LeBlanc,Taliyah,Senna,Aphelios,Syndra,Olaf,Trundle,Braum,Varus,Zoe,Jarvan IV,Sett,Tahm Kench,Ashe,Viktor,Pantheon,Renekton
+LCS,Spring,10.06,Evil Geniuses,1,100 Thieves,Syndra,Nautilus,Tahm Kench,Rakan,Taric,Senna,Ryze,LeBlanc,Trundle,Zilean,Braum,Aphelios,Malzahar,Lee Sin,Aatrox,Thresh,Varus,Zoe,Sejuani,Sett
+LCS.A,Spring,10.06,TSM Academy,1,100 Thieves Academy,Tahm Kench,Pantheon,Ornn,Sylas,Orianna,Sett,Aphelios,Yuumi,Gangplank,Rumble,Taric,Kalista,Syndra,Jarvan IV,Poppy,Rakan,Xayah,Azir,Elise,Renekton
+LCS.A,Spring,10.06,100 Thieves Academy,0,TSM Academy,Yuumi,Kalista,Tahm Kench,Varus,Ezreal,Ornn,Aphelios,Pantheon,Sejuani,Gangplank,Sett,Senna,Azir,Trundle,Graves,Rakan,Xayah,Syndra,Jarvan IV,Renekton
+LCS.A,Spring,10.06,100 Thieves Academy,0,TSM Academy,Yuumi,Kalista,Tahm Kench,Rakan,Thresh,Ornn,Aphelios,Senna,Ezreal,Lucian,Braum,Kai'Sa,Sylas,Elise,Renekton,Nautilus,Miss Fortune,Syndra,Jarvan IV,Gangplank
+LCS.A,Spring,10.06,Evil Geniuses Academy,1,Team Liquid Academy,Irelia,Yuumi,Sett,Zoe,Gragas,Ornn,Aphelios,Tahm Kench,Jarvan IV,Sejuani,Taric,Kalista,Akali,Olaf,Rumble,Nautilus,Kai'Sa,Kassadin,Taliyah,Aatrox
+LCS.A,Spring,10.06,Team Liquid Academy,0,Evil Geniuses Academy,Olaf,Sejuani,Kalista,Rumble,Elise,Aphelios,Sett,Senna,Gragas,Cassiopeia,Braum,Varus,Ornn,Karthus,Gangplank,Tahm Kench,Ashe,Irelia,Trundle,Cho'Gath
+LCS.A,Spring,10.06,Team Liquid Academy,0,Evil Geniuses Academy,Irelia,Kalista,Tahm Kench,Renekton,Sejuani,Aphelios,Sett,Ornn,Gangplank,Trundle,Nautilus,Miss Fortune,Rumble,Jarvan IV,Akali,Leona,Kai'Sa,Sylas,Olaf,Aatrox
+LCS,Spring,10.06,Evil Geniuses,1,FlyQuest,Syndra,Rakan,Olaf,Thresh,Cassiopeia,Senna,Aphelios,LeBlanc,Zoe,Renekton,Taric,Kalista,Ryze,Gragas,Sett,Braum,Varus,Azir,Pantheon,Aatrox
+LCS,Spring,10.06,FlyQuest,0,Evil Geniuses,LeBlanc,Tahm Kench,Kalista,Zoe,Pantheon,Syndra,Senna,Aatrox,Olaf,Trundle,Rakan,Xayah,Azir,Jarvan IV,Sett,Nautilus,Aphelios,Ezreal,Gragas,Ornn
+LCS,Spring,10.06,FlyQuest,1,Evil Geniuses,LeBlanc,Tahm Kench,Gragas,Zoe,Lee Sin,Syndra,Senna,Renekton,Trundle,Pantheon,Rakan,Xayah,Azir,Jarvan IV,Sett,Nautilus,Aphelios,Ezreal,Sejuani,Ornn
+LCS,Spring,10.06,Evil Geniuses,1,FlyQuest,Syndra,Rakan,Azir,Thresh,Cassiopeia,Senna,LeBlanc,Gragas,Taric,Zoe,Sett,Kalista,Taliyah,Pantheon,Ornn,Nautilus,Aphelios,Corki,Sejuani,Aatrox
+LCS,Spring,10.06,Cloud9,1,100 Thieves,Xayah,Varus,Sett,Aatrox,Trundle,Senna,Gragas,Pantheon,Kindred,Olaf,Nautilus,Aphelios,Zoe,Nocturne,Ornn,Taric,Kalista,Syndra,Sejuani,Gangplank
+LCS,Spring,10.06,100 Thieves,0,Cloud9,Senna,Gragas,Pantheon,Zilean,Nautilus,Sett,Kalista,LeBlanc,Varus,Xayah,Braum,Kog'Maw,Syndra,Trundle,Aatrox,Bard,Aphelios,Zoe,Kindred,Ornn
+LCS,Spring,10.06,100 Thieves,0,Cloud9,Senna,Gragas,Aphelios,Olaf,Trundle,Sett,Kalista,Ornn,Renekton,Rek'Sai,Tahm Kench,Varus,LeBlanc,Jarvan IV,Aatrox,Yuumi,Ezreal,Zoe,Pantheon,Hecarim
+LCS,Spring,10.06,FlyQuest,1,Golden Guardians,Tahm Kench,Olaf,Aphelios,Zoe,Pantheon,Senna,Syndra,Sett,Trundle,Azir,Rakan,Xayah,LeBlanc,Rek'Sai,Aatrox,Taric,Kalista,Corki,Jarvan IV,Ornn
+LCS,Spring,10.06,Golden Guardians,0,FlyQuest,Syndra,Rakan,LeBlanc,Gragas,Elise,Aphelios,Sett,Senna,Ornn,Olaf,Tahm Kench,Varus,Zoe,Lee Sin,Maokai,Blitzcrank,Kalista,Kassadin,Pantheon,Aatrox
+LCS,Spring,10.06,FlyQuest,1,Golden Guardians,Tahm Kench,Aphelios,Kalista,Nautilus,Thresh,Sett,Rakan,Senna,Ashe,Yuumi,Pyke,Syndra,LeBlanc,Pantheon,Gangplank,Braum,Varus,Sylas,Olaf,Aatrox
+LCS,Spring,10.06,100 Thieves,0,Team SoloMid,Senna,Syndra,Xayah,Zilean,Azir,Aphelios,Sett,Trundle,Olaf,Zoe,Nautilus,Miss Fortune,Orianna,Jarvan IV,Ornn,Tahm Kench,Varus,Corki,Gragas,Aatrox
+LCS,Spring,10.06,100 Thieves,1,Team SoloMid,Senna,Syndra,Xayah,Zilean,Azir,Aphelios,Sett,Trundle,Olaf,Zoe,Nautilus,Miss Fortune,Orianna,Jarvan IV,Ornn,Tahm Kench,Varus,Corki,Gragas,Aatrox
+LCS,Spring,10.06,Team SoloMid,0,100 Thieves,Aphelios,Ornn,Varus,Trundle,LeBlanc,Senna,Syndra,Xayah,Zilean,Zoe,Taric,Kalista,Azir,Olaf,Pantheon,Nautilus,Miss Fortune,Viktor,Gragas,Sett
+LCS,Spring,10.06,100 Thieves,0,Team SoloMid,Senna,Syndra,Xayah,Renekton,Irelia,Aphelios,Ornn,Sett,Viktor,Gragas,Nautilus,Miss Fortune,Orianna,Sejuani,Aatrox,Tahm Kench,Varus,Zoe,Rek'Sai,Kalista
+LCS,Spring,10.06,100 Thieves,0,Team SoloMid,Senna,Syndra,Tahm Kench,Renekton,Aatrox,Aphelios,Ornn,Kalista,Gragas,Trundle,Nautilus,Miss Fortune,Viktor,Sejuani,Sett,Rakan,Xayah,Zoe,Jarvan IV,Gangplank
+LCS.A,Spring,10.06,Dignitas Academy,0,Evil Geniuses Academy,Yuumi,Kalista,Aphelios,Thresh,Irelia,Tahm Kench,Senna,Syndra,Olaf,Trundle,Braum,Varus,Yasuo,Gragas,Sett,Nautilus,Miss Fortune,Zoe,Jarvan IV,Ornn
+LCS.A,Spring,10.06,Dignitas Academy,0,Evil Geniuses Academy,Yuumi,Kalista,Jarvan IV,Elise,Sejuani,Tahm Kench,Senna,Aphelios,Zoe,Syndra,Braum,Varus,Sylas,Trundle,Sett,Nautilus,Miss Fortune,Irelia,Nidalee,Ornn
+LCS.A,Spring,10.06,Dignitas Academy,1,Evil Geniuses Academy,Yuumi,Kalista,Miss Fortune,Kai'Sa,Olaf,Tahm Kench,Senna,Aphelios,Trundle,Gragas,Braum,Ezreal,Syndra,Pantheon,Sett,Nautilus,Vayne,Zoe,Lee Sin,Ornn
+LCS.A,Spring,10.06,Dignitas Academy,0,Evil Geniuses Academy,Yuumi,Kalista,Miss Fortune,Zoe,Syndra,Tahm Kench,Senna,Aphelios,Trundle,Olaf,Braum,Ezreal,Sylas,Kindred,Sett,Nautilus,Kai'Sa,Irelia,Sejuani,Ornn
+LCS.A,Spring,10.06,Cloud9 Academy,0,TSM Academy,Syndra,Senna,Jarvan IV,Olaf,Gragas,Kalista,Tahm Kench,Aphelios,Elise,Rek'Sai,Thresh,Varus,LeBlanc,Trundle,Sett,Nautilus,Miss Fortune,Zoe,Graves,Ornn
+LCS.A,Spring,10.06,Cloud9 Academy,1,TSM Academy,Syndra,Senna,Sett,Gragas,Gangplank,Kalista,Tahm Kench,Aphelios,Thresh,Braum,Rakan,Xayah,LeBlanc,Rek'Sai,Ornn,Nautilus,Miss Fortune,Zoe,Jarvan IV,Maokai
+LCS.A,Spring,10.06,TSM Academy,0,Cloud9 Academy,Tahm Kench,Syndra,Sett,Aatrox,Zoe,Aphelios,Kalista,Senna,Gragas,LeBlanc,Braum,Ezreal,Azir,Trundle,Ornn,Yuumi,Miss Fortune,Kassadin,Jarvan IV,Sylas
+LCS.A,Spring,10.06,Cloud9 Academy,1,TSM Academy,Sett,Senna,Yuumi,Thresh,Nautilus,Kalista,Tahm Kench,Syndra,Sylas,Gangplank,Braum,Aphelios,Kassadin,Jarvan IV,Aatrox,Taric,Miss Fortune,Zoe,Kindred,Ornn
+LCS,Spring,10.06,Cloud9,1,Evil Geniuses,LeBlanc,Kalista,Sett,Qiyana,Ekko,Senna,Aphelios,Olaf,Pantheon,Zoe,Tahm Kench,Varus,Syndra,Nocturne,Aatrox,Nautilus,Miss Fortune,Yasuo,Gragas,Ornn
+LCS,Spring,10.06,Evil Geniuses,0,Cloud9,Gragas,Syndra,Varus,Olaf,Cassiopeia,Sett,Senna,Aphelios,Taric,LeBlanc,Trundle,Kalista,Ryze,Pantheon,Aatrox,Tahm Kench,Ezreal,Zoe,Nocturne,Ornn
+LCS,Spring,10.06,Evil Geniuses,1,Cloud9,Ornn,Syndra,Nocturne,Olaf,Cassiopeia,Sett,Senna,LeBlanc,Renekton,Camille,Braum,Aphelios,Zoe,Gragas,Poppy,Tahm Kench,Varus,Taliyah,Pantheon,Aatrox
+LCS,Spring,10.06,Cloud9,1,Evil Geniuses,LeBlanc,Kalista,Sett,Ryze,Zoe,Senna,Aphelios,Ornn,Nocturne,Syndra,Blitzcrank,Varus,Rumble,Olaf,Aatrox,Tahm Kench,Ashe,Ekko,Gragas,Poppy
+LCS,Spring,10.06,FlyQuest,0,Team SoloMid,Senna,Tahm Kench,Kalista,Zoe,Zilean,Ornn,Sett,Syndra,LeBlanc,Azir,Rakan,Xayah,Orianna,Trundle,Gangplank,Nautilus,Aphelios,Viktor,Jarvan IV,Aatrox
+LCS,Spring,10.06,FlyQuest,1,Team SoloMid,Senna,Tahm Kench,Kalista,Zoe,Zilean,Ornn,Syndra,Sett,Azir,LeBlanc,Rakan,Xayah,Orianna,Trundle,Gangplank,Nautilus,Aphelios,Viktor,Jarvan IV,Aatrox
+LCS,Spring,10.06,FlyQuest,1,Team SoloMid,Senna,Tahm Kench,Kalista,Kindred,Olaf,Ornn,Syndra,Sett,LeBlanc,Kassadin,Rakan,Xayah,Azir,Trundle,Aatrox,Nautilus,Aphelios,Zilean,Jarvan IV,Irelia
+LCS,Spring,10.06,Team SoloMid,1,FlyQuest,Ornn,Syndra,Kassadin,Taric,Cassiopeia,Senna,Sett,Zoe,Zilean,Azir,Rakan,Xayah,Sylas,Elise,Renekton,Blitzcrank,Kalista,LeBlanc,Pantheon,Aatrox
+LCS,Spring,10.06,FlyQuest,1,Team SoloMid,Senna,Tahm Kench,Kalista,Zoe,LeBlanc,Ornn,Syndra,Rakan,Trundle,Jarvan IV,Thresh,Varus,Azir,Olaf,Sett,Nautilus,Aphelios,Ekko,Sejuani,Aatrox
+LCS.A,Spring,10.06,Cloud9 Academy,1,Evil Geniuses Academy,Irelia,Kalista,Senna,Olaf,Elise,Aphelios,Tahm Kench,Rek'Sai,LeBlanc,Zoe,Thresh,Varus,Syndra,Gragas,Sett,Nautilus,Miss Fortune,Akali,Jarvan IV,Ornn
+LCS.A,Spring,10.06,Evil Geniuses Academy,0,Cloud9 Academy,Yuumi,Rek'Sai,LeBlanc,Braum,Blitzcrank,Aphelios,Senna,Kalista,Olaf,Jarvan IV,Tahm Kench,Ashe,Irelia,Elise,Ornn,Thresh,Varus,Qiyana,Gragas,Sett
+LCS.A,Spring,10.06,Cloud9 Academy,1,Evil Geniuses Academy,Irelia,Kalista,Senna,Olaf,Lee Sin,Aphelios,Tahm Kench,Rek'Sai,Zoe,Gragas,Nautilus,Varus,LeBlanc,Elise,Sett,Leona,Miss Fortune,Lissandra,Jarvan IV,Aatrox
+LCS,Spring,10.06,Evil Geniuses,0,FlyQuest,Syndra,Rakan,Azir,Thresh,Kassadin,Senna,Sett,LeBlanc,Kindred,Zoe,Taric,Kalista,Zilean,Graves,Ornn,Blitzcrank,Aphelios,Viktor,Trundle,Aatrox
+LCS,Spring,10.06,Evil Geniuses,0,FlyQuest,Syndra,Azir,Trundle,Pantheon,Kassadin,Senna,Sett,Aphelios,Gragas,LeBlanc,Taric,Kalista,Zoe,Kindred,Aatrox,Rakan,Xayah,Orianna,Rek'Sai,Ornn
+LCS,Spring,10.06,Evil Geniuses,1,FlyQuest,Syndra,Rakan,Blitzcrank,Olaf,Kassadin,Senna,Sett,LeBlanc,Aatrox,Poppy,Tahm Kench,Aphelios,Azir,Gragas,Renekton,Pyke,Kalista,Corki,Nocturne,Ornn
+LCS,Spring,10.06,FlyQuest,1,Evil Geniuses,LeBlanc,Senna,Tahm Kench,Yasuo,Zoe,Syndra,Rakan,Sett,Blitzcrank,Kassadin,Braum,Aphelios,Corki,Trundle,Aatrox,Yuumi,Miss Fortune,Azir,Gragas,Ornn
+LCS,Spring,10.06,Cloud9,1,FlyQuest,Rakan,Trundle,Syndra,LeBlanc,Kassadin,Senna,Tahm Kench,Zoe,Olaf,Nocturne,Nautilus,Miss Fortune,Veigar,Kindred,Sett,Blitzcrank,Aphelios,Azir,Pantheon,Ornn
+LCS,Spring,10.06,Cloud9,1,FlyQuest,Rakan,Trundle,Azir,Olaf,Blitzcrank,Senna,Tahm Kench,Nautilus,Varus,Miss Fortune,Thresh,Kalista,Yasuo,Gragas,Sett,Alistar,Aphelios,Syndra,Rek'Sai,Ornn
+LCS,Spring,10.06,FlyQuest,0,Cloud9,Senna,Tahm Kench,Zoe,Gragas,LeBlanc,Sett,Trundle,Azir,Olaf,Rek'Sai,Rakan,Xayah,Syndra,Pantheon,Ornn,Thresh,Aphelios,Rumble,Jarvan IV,Aatrox
+LCS.A,Summer,10.11,Cloud9 Academy,0,100 Thieves Academy,Ezreal,Syndra,Olaf,Jayce,Azir,Varus,Kalista,Ornn,Aatrox,Karma,Thresh,Cassiopeia,Lulu,Graves,Sett,Nautilus,Aphelios,Zoe,Nidalee,Renekton
+LCS.A,Summer,10.11,FlyQuest Academy,1,Immortals Academy,Thresh,Olaf,Trundle,Corki,LeBlanc,Varus,Graves,Kalista,Rek'Sai,Nidalee,Nautilus,Kai'Sa,Syndra,Nocturne,Sett,Yuumi,Ezreal,Jayce,Lee Sin,Aatrox
+LCS.A,Summer,10.11,TSM Academy,1,Team Liquid Academy,Olaf,Ezreal,Sett,Miss Fortune,Karma,Varus,Kalista,Graves,Azir,Ornn,Braum,Aphelios,Zoe,Trundle,Gangplank,Nautilus,Syndra,Lulu,Kindred,Aatrox
+LCS.A,Summer,10.11,Evil Geniuses Academy,0,CLG Academy,Sett,Karma,Syndra,LeBlanc,Zoe,Kalista,Nidalee,Graves,Irelia,Trundle,Thresh,Varus,Azir,Lee Sin,Rumble,Leona,Draven,Galio,Jarvan IV,Ornn
+LCS.A,Summer,10.11,Golden Guardians Academy,1,Dignitas Academy,Kindred,Sett,Aphelios,Nidalee,Azir,Varus,Graves,Syndra,Wukong,LeBlanc,Nautilus,Kalista,Galio,Trundle,Jayce,Leona,Ezreal,Karma,Lee Sin,Aatrox
+LCS.A,Summer,10.11,FlyQuest Academy,1,Cloud9 Academy,Sett,Kalista,Aphelios,Olaf,Kassadin,Varus,Syndra,Graves,Nocturne,Azir,Nautilus,Kai'Sa,Corki,Lee Sin,Ornn,Yuumi,Ezreal,Karma,Rek'Sai,Gangplank
+LCS.A,Summer,10.11,100 Thieves Academy,1,Evil Geniuses Academy,Rumble,Yuumi,Sett,Kindred,Nidalee,Varus,Syndra,Graves,Aatrox,LeBlanc,Taric,Kalista,Azir,Trundle,Urgot,Morgana,Aphelios,Zoe,Lee Sin,Ornn
+LCS.A,Summer,10.11,Team Liquid Academy,0,Golden Guardians Academy,Sett,Senna,Aphelios,Nautilus,Leona,Varus,Graves,Kalista,Zoe,LeBlanc,Yuumi,Ezreal,Ekko,Olaf,Aatrox,Thresh,Miss Fortune,Syndra,Trundle,Gangplank
+LCS.A,Summer,10.11,Dignitas Academy,0,TSM Academy,Syndra,Karma,Olaf,Sett,Zoe,Graves,Kalista,Ezreal,Nidalee,Kindred,Tahm Kench,Varus,Azir,Lee Sin,Ornn,Thresh,Aphelios,Corki,Trundle,Aatrox
+LCS.A,Summer,10.11,CLG Academy,0,Immortals Academy,Syndra,Kalista,Thresh,Azir,Cassiopeia,Varus,Graves,Sett,Nautilus,Kai'Sa,Rakan,Xayah,Galio,Jarvan IV,Ornn,Yuumi,Ezreal,Corki,Trundle,Aatrox
+LCS,Summer,10.11,100 Thieves,0,Evil Geniuses,Sett,Kalista,Graves,LeBlanc,Twisted Fate,Varus,Syndra,Trundle,Bard,Karma,Nautilus,Ezreal,Zoe,Olaf,Ornn,Yuumi,Aphelios,Corki,Kindred,Aatrox
+LCS,Summer,10.11,Cloud9,1,FlyQuest,Trundle,Graves,Kalista,Azir,Nidalee,Varus,Syndra,Yuumi,Ornn,Zoe,Nautilus,Aphelios,LeBlanc,Olaf,Jayce,Karma,Ezreal,Corki,Lee Sin,Sett
+LCS,Summer,10.11,Evil Geniuses,1,Counter Logic Gaming,Sett,Ornn,Syndra,Zoe,Galio,Varus,Kalista,Graves,Malphite,LeBlanc,Lulu,Aphelios,Twisted Fate,Trundle,Poppy,Yuumi,Ezreal,Cassiopeia,Nidalee,Jayce
+LCS,Summer,10.11,Team SoloMid,0,Team Liquid,Sett,Yuumi,Ornn,LeBlanc,Ekko,Varus,Graves,Zilean,Jarvan IV,Lee Sin,Taric,Kalista,Syndra,Kayn,Aatrox,Bard,Aphelios,Azir,Trundle,Mordekaiser
+LCS,Summer,10.11,Immortals,0,FlyQuest,Ornn,Aphelios,Yuumi,Corki,Viktor,Varus,Syndra,Kalista,Aatrox,Wukong,Nautilus,Kai'Sa,Galio,Graves,Karma,Rakan,Ezreal,Cassiopeia,Kindred,Sett
+LCS,Summer,10.11,Golden Guardians,1,Dignitas,Ornn,Kalista,Yuumi,Karma,Zoe,Varus,Syndra,Aphelios,LeBlanc,Galio,Thresh,Kai'Sa,Ekko,Graves,Renekton,Leona,Ezreal,Orianna,Trundle,Sett
+LCS,Summer,10.11,Cloud9,1,100 Thieves,Trundle,Graves,Syndra,Lulu,Cassiopeia,Varus,Kalista,LeBlanc,Aatrox,Zoe,Yuumi,Ezreal,Galio,Olaf,Gangplank,Nautilus,Aphelios,Azir,Kindred,Ornn
+LCS,Summer,10.11,Dignitas,0,Team SoloMid,Syndra,Varus,Ornn,Zilean,LeBlanc,Aphelios,Kalista,Graves,Lee Sin,Kindred,Lulu,Ezreal,Orianna,Nidalee,Sett,Yuumi,Miss Fortune,Corki,Trundle,Aatrox
+LCS,Summer,10.11,Team Liquid,1,Golden Guardians,Sett,Graves,Ezreal,LeBlanc,Corki,Varus,Syndra,Yuumi,Azir,Zoe,Braum,Aphelios,Orianna,Trundle,Mordekaiser,Thresh,Kalista,Jayce,Nidalee,Ornn
+LCS,Summer,10.11,Immortals,0,Counter Logic Gaming,Syndra,Yuumi,Kalista,Corki,Zoe,Varus,Cassiopeia,Graves,LeBlanc,Azir,Braum,Aphelios,Orianna,Lee Sin,Ornn,Nautilus,Miss Fortune,Diana,Trundle,Aatrox
+LCS.A,Summer,10.12,Cloud9 Academy,0,Evil Geniuses Academy,Ezreal,Syndra,Graves,Olaf,LeBlanc,Varus,Kalista,Volibear,Ornn,Jarvan IV,Nautilus,Aphelios,Zoe,Rek'Sai,Aatrox,Karma,Senna,Orianna,Trundle,Sett
+LCS.A,Summer,10.12,CLG Academy,1,Golden Guardians Academy,Syndra,Trundle,Kalista,Sett,Twisted Fate,Varus,Graves,Olaf,Lulu,Yuumi,Bard,Aphelios,LeBlanc,Lee Sin,Ornn,Braum,Ashe,Karma,Kindred,Mordekaiser
+LCS.A,Summer,10.12,Team Liquid Academy,1,100 Thieves Academy,Yuumi,Karma,Aphelios,Braum,Twisted Fate,Varus,Syndra,Kalista,Nautilus,Zoe,Sett,Kai'Sa,Jayce,Nidalee,Volibear,Thresh,Ezreal,Orianna,Graves,Aatrox
+LCS.A,Summer,10.12,Immortals Academy,1,TSM Academy,Kalista,Syndra,,Kassadin,Aatrox,Graves,Ezreal,Thresh,Urgot,Fiddlesticks,Nautilus,Varus,Azir,Nidalee,Malphite,Braum,Aphelios,Corki,Trundle,Volibear
+LCS.A,Summer,10.12,FlyQuest Academy,0,Dignitas Academy,Kalista,Ezreal,Graves,Olaf,Kindred,Varus,Syndra,Aphelios,LeBlanc,Zoe,Nautilus,Senna,Azir,Rek'Sai,Sett,Karma,Miss Fortune,Corki,Trundle,Volibear
+LCS.A,Summer,10.12,Evil Geniuses Academy,1,Team Liquid Academy,Karma,Syndra,Volibear,Sett,LeBlanc,Kalista,Blitzcrank,Tahm Kench,Azir,Zoe,Braum,Varus,Irelia,Graves,Rumble,Thresh,Aphelios,Galio,Olaf,Jayce
+LCS.A,Summer,10.12,Golden Guardians Academy,0,Cloud9 Academy,Thresh,Syndra,Karma,Nidalee,Trundle,Ezreal,Varus,Kalista,Braum,Morgana,Leona,Aphelios,Orianna,Graves,Ornn,Nautilus,Cassiopeia,Jayce,Gragas,Gangplank
+LCS.A,Summer,10.12,100 Thieves Academy,1,Immortals Academy,Yuumi,Karma,Ornn,Volibear,Maokai,Kalista,Syndra,Varus,Orianna,Jayce,Sett,Ezreal,Twisted Fate,Nidalee,Renekton,Thresh,Aphelios,Zoe,Graves,Aatrox
+LCS.A,Summer,10.12,TSM Academy,1,FlyQuest Academy,Ezreal,Syndra,Thresh,Yuumi,Braum,Graves,Kalista,Volibear,Zoe,LeBlanc,Tahm Kench,Varus,Cassiopeia,Kindred,Aatrox,Bard,Aphelios,Azir,Trundle,Wukong
+LCS.A,Summer,10.12,Dignitas Academy,0,CLG Academy,Ornn,Yuumi,Varus,Zoe,Gangplank,Kalista,Graves,Karma,Miss Fortune,Volibear,Thresh,Syndra,Azir,Kindred,Aatrox,Braum,Aphelios,Orianna,Trundle,Wukong
+LCS,Summer,10.12,Counter Logic Gaming,1,Golden Guardians,Kalista,Ornn,Yuumi,LeBlanc,Tahm Kench,Varus,Syndra,Graves,Thresh,Jayce,Nautilus,Aphelios,Twisted Fate,Trundle,Volibear,Leona,Ezreal,Zoe,Nidalee,Sett
+LCS,Summer,10.12,Immortals,0,Team SoloMid,Kalista,Yuumi,Syndra,Kindred,Azir,Varus,Graves,Aphelios,Leona,Karma,Braum,Ezreal,Orianna,Trundle,Ornn,Rakan,Kai'Sa,Fiddlesticks,Lee Sin,Sett
+LCS,Summer,10.12,Team Liquid,1,100 Thieves,Sett,Yuumi,Volibear,Kindred,Trundle,Varus,Syndra,Aphelios,Bard,Braum,Blitzcrank,Ezreal,Twisted Fate,Graves,Ornn,Thresh,Kalista,Azir,Olaf,Aatrox
+LCS,Summer,10.12,Team SoloMid,0,FlyQuest,Graves,Yuumi,Bard,Braum,Cassiopeia,Varus,Kalista,Sett,Mordekaiser,LeBlanc,Nautilus,Syndra,Fiddlesticks,Lee Sin,Volibear,Leona,Aphelios,Azir,Trundle,Ornn
+LCS,Summer,10.12,Cloud9,1,Evil Geniuses,Graves,Trundle,LeBlanc,Twisted Fate,Ryze,Varus,Syndra,Thresh,Zoe,Galio,Yuumi,Ezreal,Karma,Olaf,Jayce,Lulu,Aphelios,Kassadin,Lee Sin,Volibear
+LCS,Summer,10.12,Dignitas,0,Counter Logic Gaming,Trundle,Olaf,Syndra,Nidalee,Morgana,Varus,Yuumi,Ornn,Taric,Thresh,Bard,Kalista,LeBlanc,Graves,Aatrox,Lulu,Aphelios,Twisted Fate,Sett,Volibear
+LCS,Summer,10.12,Evil Geniuses,1,Team Liquid,Ornn,Syndra,Kalista,Shen,Jayce,Graves,Varus,Yuumi,Blitzcrank,Morgana,Braum,Aphelios,Twisted Fate,Kindred,Volibear,Thresh,Ezreal,Cassiopeia,Trundle,Mordekaiser
+LCS,Summer,10.12,FlyQuest,1,Dignitas,Kalista,Yuumi,Graves,Kai'Sa,Senna,Varus,Syndra,Aphelios,LeBlanc,Azir,Rakan,Ezreal,Orianna,Trundle,Ornn,Thresh,Ashe,Twisted Fate,Nidalee,Volibear
+LCS,Summer,10.12,Golden Guardians,0,Cloud9,Yuumi,Kalista,Olaf,Thresh,Kindred,Varus,Graves,Syndra,Nidalee,Karma,Sett,Ezreal,Twisted Fate,Nocturne,Ornn,Braum,Aphelios,Galio,Trundle,Volibear
+LCS,Summer,10.12,100 Thieves,1,Immortals,Ornn,Graves,Ezreal,Twisted Fate,LeBlanc,Aphelios,Varus,Syndra,Volibear,Wukong,Rakan,Xayah,Orianna,Trundle,Renekton,Leona,Kalista,Azir,Lee Sin,Aatrox
+LCS.A,Summer,10.12,Evil Geniuses Academy,1,Dignitas Academy,Trundle,Karma,Syndra,LeBlanc,Riven,Varus,Kalista,Aphelios,Nidalee,Olaf,Yuumi,Twitch,Irelia,Volibear,Rumble,Leona,Ezreal,Orianna,Graves,Wukong
+LCS.A,Summer,10.12,Team Liquid Academy,0,Cloud9 Academy,Syndra,Karma,Yuumi,Aatrox,Ornn,Varus,Olaf,Kalista,Twisted Fate,Kindred,Thresh,Aphelios,Corki,Volibear,Vladimir,Nautilus,Cassiopeia,Kassadin,Trundle,Gangplank
+LCS.A,Summer,10.12,Immortals Academy,1,Golden Guardians Academy,Karma,Kalista,Volibear,Jayce,Bard,Varus,Syndra,Yuumi,Thresh,Leona,Rakan,Aphelios,Twisted Fate,Nidalee,Urgot,Nautilus,Ezreal,Galio,Trundle,Aatrox
+LCS.A,Summer,10.12,100 Thieves Academy,0,TSM Academy,Karma,Yuumi,Syndra,Zoe,Corki,Sett,Ezreal,Nidalee,Azir,Ornn,Tahm Kench,Varus,Twisted Fate,Trundle,Volibear,Thresh,Kalista,Orianna,Graves,Gangplank
+LCS.A,Summer,10.12,FlyQuest Academy,0,CLG Academy,Syndra,Yuumi,Jarvan IV,Lulu,Kassadin,Graves,Kalista,Karma,Thresh,Orianna,Tahm Kench,Varus,Azir,Kindred,Aatrox,Braum,Aphelios,Corki,Trundle,Ornn
+LCS.A,Summer,10.12,CLG Academy,0,100 Thieves Academy,Kalista,Ezreal,Karma,Vladimir,Jayce,Varus,Ornn,Trundle,Nautilus,Thresh,Pyke,Aphelios,Syndra,Karthus,Gangplank,Bard,Ziggs,LeBlanc,Graves,Aatrox
+LCS.A,Summer,10.12,Dignitas Academy,1,Team Liquid Academy,Trundle,Olaf,Varus,Galio,Yuumi,Graves,Syndra,Kalista,Azir,Twisted Fate,Thresh,Aphelios,LeBlanc,Rek'Sai,Sett,Karma,Ezreal,Corki,Lee Sin,Volibear
+LCS.A,Summer,10.12,Cloud9 Academy,1,Immortals Academy,Ezreal,Trundle,Twisted Fate,Urgot,Nocturne,Kalista,Varus,Syndra,Graves,Jayce,Lulu,Aphelios,Orianna,Volibear,Camille,Yuumi,Miss Fortune,Azir,Olaf,Aatrox
+LCS.A,Summer,10.12,Golden Guardians Academy,1,FlyQuest Academy,Ornn,Kalista,Syndra,Kassadin,Corki,Varus,Aphelios,Volibear,Nautilus,Jayce,Rakan,Ezreal,Twisted Fate,Nidalee,Gangplank,Yuumi,Sivir,Azir,Trundle,Sett
+LCS.A,Summer,10.12,TSM Academy,1,Evil Geniuses Academy,Rumble,Yuumi,Trundle,Irelia,Twisted Fate,Varus,Kalista,Aphelios,Aatrox,LeBlanc,Nautilus,Ezreal,Zoe,Graves,Ornn,Karma,Senna,Orianna,Volibear,Sett
+LCS,Summer,10.12,FlyQuest,1,Counter Logic Gaming,Volibear,Twisted Fate,Yuumi,Ekko,LeBlanc,Varus,Trundle,Ornn,Rakan,Thresh,Pantheon,Aphelios,Syndra,Graves,Sett,Bard,Ezreal,Galio,Jarvan IV,Jayce
+LCS,Summer,10.12,Team Liquid,0,Cloud9,Yuumi,Olaf,Volibear,Nocturne,Galio,Varus,Syndra,Blitzcrank,Ezreal,Kalista,Nautilus,Kai'Sa,Twisted Fate,Graves,Aatrox,Thresh,Cassiopeia,Zoe,Lee Sin,Sett
+LCS,Summer,10.12,Counter Logic Gaming,1,100 Thieves,Yuumi,Olaf,Thresh,Akali,LeBlanc,Varus,Syndra,Twisted Fate,Bard,Karma,Rakan,Ezreal,Orianna,Trundle,Aatrox,Braum,Aphelios,Azir,Volibear,Renekton
+LCS,Summer,10.12,Team SoloMid,1,Evil Geniuses,Yuumi,Twisted Fate,Kalista,Kassadin,Sett,Varus,Syndra,Ornn,Zilean,Fiddlesticks,Braum,Aphelios,LeBlanc,Kindred,Shen,Bard,Ezreal,Karma,Graves,Volibear
+LCS,Summer,10.12,Dignitas,0,Team Liquid,Syndra,Kalista,Trundle,Aatrox,Gangplank,Volibear,Varus,Yuumi,LeBlanc,Orianna,Thresh,Aphelios,Karma,Olaf,Ornn,Blitzcrank,Cassiopeia,Twisted Fate,Lee Sin,Jayce
+LCS,Summer,10.12,Immortals,1,Golden Guardians,Karma,Kalista,Syndra,Leona,Lulu,Varus,Yuumi,Urgot,Aatrox,Olaf,Rakan,Ezreal,Orianna,Trundle,Malphite,Thresh,Aphelios,Twisted Fate,Volibear,Mordekaiser
+LCS,Summer,10.12,100 Thieves,0,Team SoloMid,Graves,Yuumi,Twisted Fate,Zilean,LeBlanc,Aphelios,Syndra,Trundle,Ornn,Zoe,Thresh,Varus,Azir,Olaf,Aatrox,Blitzcrank,Kalista,Orianna,Volibear,Gangplank
+LCS,Summer,10.12,Cloud9,1,Immortals,Graves,Trundle,Orianna,Yuumi,Urgot,Varus,Olaf,Syndra,Jayce,Gangplank,Thresh,Kalista,Twisted Fate,Lee Sin,Wukong,Nautilus,Ezreal,Zoe,Ivern,Aatrox
+LCS,Summer,10.12,Golden Guardians,1,FlyQuest,Trundle,Syndra,Yuumi,Sett,Maokai,Varus,Kalista,Aphelios,Volibear,Wukong,Tahm Kench,Ezreal,Twisted Fate,Lee Sin,Jayce,Blitzcrank,Senna,Orianna,Graves,Ornn
+LCS,Summer,10.12,Evil Geniuses,1,Dignitas,Ornn,Thresh,Syndra,Nautilus,Wukong,Varus,Twisted Fate,Aphelios,LeBlanc,Ekko,Yuumi,Ezreal,Corki,Trundle,Jayce,Bard,Kai'Sa,Orianna,Lee Sin,Volibear
+LCS.A,Summer,10.13,Dignitas Academy,1,100 Thieves Academy,Volibear,Trundle,Syndra,LeBlanc,Malphite,Kalista,Varus,Nidalee,Kog'Maw,Zoe,Bard,Ziggs,Orianna,Graves,Wukong,Karma,Aphelios,Twisted Fate,Kindred,Renekton
+LCS.A,Summer,10.13,Golden Guardians Academy,0,TSM Academy,Graves,Kalista,Volibear,Ornn,Thresh,Twisted Fate,Varus,Gangplank,Leona,Wukong,Bard,Ezreal,Orianna,Nocturne,Aatrox,Rakan,Aphelios,Azir,Trundle,Jayce
+LCS.A,Summer,10.13,Cloud9 Academy,1,CLG Academy,Trundle,Twisted Fate,Aphelios,Gangplank,LeBlanc,Kalista,Karma,Ezreal,Hecarim,Syndra,Thresh,Varus,Orianna,Sett,Ornn,Pantheon,Taliyah,Sylas,Volibear,Aatrox
+LCS.A,Summer,10.13,Team Liquid Academy,0,Immortals Academy,Karma,Kalista,Cassiopeia,Kai'Sa,Aphelios,Varus,Trundle,Thresh,Gangplank,Rakan,Braum,Ezreal,Jayce,Nidalee,Wukong,Nautilus,Sivir,Syndra,Graves,Ornn
+LCS.A,Summer,10.13,Evil Geniuses Academy,1,FlyQuest Academy,LeBlanc,Twisted Fate,Trundle,Riven,Ornn,Varus,Volibear,Karma,Blitzcrank,Galio,Nautilus,Kalista,Irelia,Jarvan IV,Rumble,Thresh,Aphelios,Orianna,Rek'Sai,Aatrox
+LCS.A,Summer,10.13,TSM Academy,1,CLG Academy,Ornn,Gangplank,Twisted Fate,Malphite,Thresh,Kalista,Karma,Varus,Jayce,Braum,Rakan,Ezreal,Zoe,Graves,Sett,Leona,Tristana,Orianna,Trundle,Wukong
+LCS.A,Summer,10.13,Immortals Academy,1,Evil Geniuses Academy,Rumble,Irelia,Karma,Nautilus,Blitzcrank,Syndra,Sett,Graves,Braum,Thresh,Tahm Kench,Varus,Orianna,Lee Sin,Mordekaiser,Taric,Kalista,Galio,Trundle,Gangplank
+LCS.A,Summer,10.13,Cloud9 Academy,1,Dignitas Academy,Trundle,Graves,Twisted Fate,Wukong,LeBlanc,Varus,Kalista,Cassiopeia,Gangplank,Jayce,Nautilus,Syndra,Orianna,Volibear,Camille,Thresh,Aphelios,Karma,Olaf,Aatrox
+LCS.A,Summer,10.13,100 Thieves Academy,0,Golden Guardians Academy,Bard,Graves,Kalista,Gangplank,Yuumi,Varus,Volibear,Orianna,Ornn,Nautilus,Leona,Aphelios,Azir,Trundle,Urgot,Rakan,Ezreal,Twisted Fate,Nidalee,Wukong
+LCS,Summer,10.13,100 Thieves,0,Golden Guardians,Twisted Fate,Kalista,Ezreal,Orianna,Wukong,Syndra,Varus,Nidalee,Azir,Trundle,Thresh,Aphelios,Cassiopeia,Volibear,Renekton,Tahm Kench,Ashe,Galio,Graves,Kennen
+LCS,Summer,10.13,Counter Logic Gaming,0,Cloud9,Olaf,Kalista,Yuumi,Galio,Jayce,Twisted Fate,Varus,Volibear,Mordekaiser,LeBlanc,Nautilus,Aphelios,Syndra,Trundle,Malphite,Rakan,Ezreal,Rumble,Lee Sin,Wukong
+LCS,Summer,10.13,Team SoloMid,1,Golden Guardians,Kalista,Ezreal,Tahm Kench,Gangplank,Ornn,Varus,Syndra,Zilean,Thresh,Nautilus,Bard,Aphelios,Twisted Fate,Volibear,Renekton,Karma,Ashe,Morgana,Graves,Mordekaiser
+LCS,Summer,10.13,Dignitas,0,100 Thieves,Xayah,Karma,Syndra,Renekton,Yuumi,Aphelios,Varus,Azir,Thresh,Tahm Kench,Braum,Ashe,Twisted Fate,Graves,Ornn,Rakan,Ezreal,Orianna,Olaf,Gangplank
+LCS,Summer,10.13,Evil Geniuses,0,FlyQuest,Azir,Syndra,Trundle,Bard,Mordekaiser,Twisted Fate,Aphelios,LeBlanc,Corki,Jayce,Yuumi,Ezreal,Kog'Maw,Olaf,Ornn,Senna,Varus,Orianna,Volibear,Sett
+LCS,Summer,10.13,Team Liquid,1,Immortals,Trundle,Olaf,Ezreal,Braum,Kog'Maw,Varus,Syndra,Twisted Fate,LeBlanc,Jayce,Thresh,Aphelios,Azir,Lee Sin,Ornn,Karma,Ashe,Orianna,Graves,Malphite
+LCS,Summer,10.13,Cloud9,1,Dignitas,Graves,Trundle,Azir,Nautilus,,Varus,Olaf,Thresh,Lee Sin,Bard,Yuumi,Ezreal,Twisted Fate,Volibear,Sett,Karma,Aphelios,Morgana,Wukong,Mordekaiser
+LCS,Summer,10.13,FlyQuest,0,Team Liquid,Twisted Fate,Aphelios,Lee Sin,Thresh,Jayce,Volibear,Varus,Trundle,Wukong,Ornn,Rakan,Ezreal,Syndra,Sett,Maokai,Nautilus,Kalista,Azir,Graves,Kennen
+LCS,Summer,10.13,Team SoloMid,1,Counter Logic Gaming,Ezreal,Trundle,Cassiopeia,Orianna,Rek'Sai,Varus,Syndra,Twisted Fate,Braum,Morgana,Leona,Aphelios,Azir,Lee Sin,Ornn,Nautilus,Miss Fortune,Corki,Volibear,Gangplank
+LCS,Summer,10.13,Immortals,0,Evil Geniuses,Kalista,Twisted Fate,Varus,Leona,LeBlanc,Nidalee,Syndra,Malphite,Ornn,Sett,Rakan,Ezreal,Azir,Lee Sin,Urgot,Nautilus,Aphelios,Orianna,Trundle,Volibear
+LCS.A,Summer,10.13,Team Liquid Academy,1,CLG Academy,Sett,Trundle,Twisted Fate,Leona,Nautilus,Ezreal,Kalista,Varus,Kai'Sa,Xayah,Braum,Aphelios,Irelia,Volibear,Kennen,Rakan,Miss Fortune,Orianna,Lee Sin,Jayce
+LCS.A,Summer,10.13,FlyQuest Academy,1,100 Thieves Academy,Trundle,Karma,Olaf,Gangplank,Malphite,Varus,Kalista,Twisted Fate,Graves,Nidalee,Leona,Ezreal,Kog'Maw,Volibear,Wukong,Nautilus,Ashe,Orianna,Sett,Rumble
+LCS.A,Summer,10.13,Cloud9 Academy,1,TSM Academy,Trundle,Aphelios,Kalista,Malphite,Zoe,Ezreal,Thresh,Varus,Kassadin,Gangplank,Nautilus,Syndra,Corki,Volibear,Camille,Wukong,Senna,Azir,Graves,Ornn
+LCS.A,Summer,10.13,Evil Geniuses Academy,1,Golden Guardians Academy,Bard,Senna,Twisted Fate,Trundle,Zoe,Karma,Kalista,Varus,Irelia,Azir,Lulu,Aphelios,Galio,Volibear,Ornn,Rakan,Ezreal,Orianna,Sett,Gangplank
+LCS.A,Summer,10.13,Immortals Academy,1,Dignitas Academy,Trundle,Twisted Fate,Karma,Riven,Blitzcrank,Varus,Ezreal,Kalista,LeBlanc,Ornn,Tahm Kench,Ashe,Azir,Graves,Aatrox,Sett,Syndra,Orianna,Volibear,Wukong
+LCS.A,Summer,10.13,Dignitas Academy,1,FlyQuest Academy,Trundle,Karma,Ezreal,Nocturne,Rek'Sai,Varus,Volibear,Twisted Fate,Riven,Orianna,Sett,Kalista,Galio,Wukong,Jayce,Tahm Kench,Ashe,Corki,Lee Sin,Aatrox
+LCS.A,Summer,10.13,Golden Guardians Academy,1,Team Liquid Academy,Kennen,Kalista,Olaf,Thresh,Ornn,Ezreal,Varus,Trundle,Bard,Tahm Kench,Karma,Ashe,Twisted Fate,Graves,Gangplank,Braum,Aphelios,Orianna,Volibear,Vladimir
+LCS.A,Summer,10.13,100 Thieves Academy,1,Cloud9 Academy,Trundle,Syndra,Graves,Wukong,Maokai,Varus,Kalista,Twisted Fate,Urgot,LeBlanc,Nautilus,Ezreal,Azir,Volibear,Aatrox,Karma,Senna,Corki,Sett,Camille
+LCS.A,Summer,10.13,TSM Academy,1,Immortals Academy,Tahm Kench,Twisted Fate,Kassadin,Ornn,Malphite,Trundle,Ezreal,Graves,Camille,Aatrox,Nautilus,Kalista,Orianna,Olaf,Jayce,Braum,Varus,Azir,Volibear,Gangplank
+LCS.A,Summer,10.13,CLG Academy,1,Evil Geniuses Academy,Karma,Aphelios,Rumble,Azir,Orianna,Trundle,Twisted Fate,Graves,Jarvan IV,Nocturne,Blitzcrank,Kalista,Galio,Sett,Ornn,Thresh,Varus,Corki,Volibear,Gangplank
+LCS,Summer,10.13,Immortals,0,Dignitas,Twisted Fate,Kalista,Volibear,Bard,Orianna,Ezreal,Varus,Trundle,Urgot,Malphite,Karma,Aphelios,Syndra,Sett,Aatrox,Thresh,Ashe,Azir,Graves,Ornn
+LCS,Summer,10.13,FlyQuest,0,100 Thieves,Twisted Fate,Graves,Aphelios,Lee Sin,Thresh,Varus,Trundle,Volibear,Ornn,Bard,Rakan,Ezreal,Orianna,Olaf,Renekton,Sett,Kalista,Syndra,Nidalee,Jayce
+LCS,Summer,10.13,Cloud9,1,Team SoloMid,Graves,Trundle,Kalista,Thresh,Tahm Kench,Twisted Fate,Olaf,Yuumi,Lee Sin,Jayce,Senna,Wukong,Azir,Sett,Ornn,Bard,Varus,LeBlanc,Volibear,Mordekaiser
+LCS,Summer,10.13,Team Liquid,1,Counter Logic Gaming,Gangplank,Volibear,Wukong,LeBlanc,Bard,Aphelios,Twisted Fate,Trundle,Olaf,Thresh,Tahm Kench,Varus,Azir,Lee Sin,Shen,Karma,Ezreal,Syndra,Sett,Ornn
+LCS,Summer,10.13,Dignitas,1,FlyQuest,Trundle,Orianna,Ezreal,Gangplank,Rakan,Twisted Fate,Aphelios,Wukong,Olaf,Graves,Thresh,Varus,Azir,Lee Sin,Ornn,Nautilus,Kalista,Kassadin,Volibear,Sett
+LCS,Summer,10.13,Team SoloMid,0,Immortals,Malphite,Ezreal,Karma,Orianna,LeBlanc,Twisted Fate,Syndra,Varus,Bard,Braum,Tahm Kench,Aphelios,Zilean,Trundle,Wukong,Thresh,Ashe,Corki,Graves,Ornn
+LCS,Summer,10.13,100 Thieves,1,Cloud9,Kalista,Twisted Fate,Ezreal,Orianna,Azir,Graves,LeBlanc,Syndra,Thresh,Malphite,Karma,Ashe,Galio,Olaf,Camille,Senna,Wukong,Cassiopeia,Jarvan IV,Jayce
+LCS,Summer,10.13,Team Liquid,1,Golden Guardians,Volibear,Ashe,Varus,Sett,Gangplank,Twisted Fate,Trundle,Azir,Thresh,Nautilus,Bard,Aphelios,LeBlanc,Lee Sin,Ornn,Karma,Ezreal,Lissandra,Olaf,Kayle
+LCS,Summer,10.13,Counter Logic Gaming,1,Evil Geniuses,LeBlanc,Aphelios,Yuumi,Bard,Jayce,Twisted Fate,Ornn,Karma,Thresh,Sett,Morgana,Kalista,Azir,Volibear,Gangplank,Braum,Ezreal,Ekko,Trundle,Riven
+LCS.A,Summer,10.14,Team Liquid Academy,0,Evil Geniuses Academy,Karma,Kalista,Irelia,Mordekaiser,Bard,Kennen,Volibear,Twisted Fate,Trundle,Galio,Senna,Sett,Syndra,Kha'Zix,Wukong,Braum,Ezreal,Zoe,Olaf,Poppy
+LCS.A,Summer,10.14,TSM Academy,1,100 Thieves Academy,Twisted Fate,Karma,Wukong,Thresh,Camille,Kalista,Graves,Zoe,Gangplank,Jayce,Bard,Ezreal,Orianna,Trundle,Ornn,Rakan,Ashe,Syndra,Rek'Sai,Volibear
+LCS.A,Summer,10.14,Cloud9 Academy,1,FlyQuest Academy,Karthus,Olaf,Ashe,Azir,Corki,Twisted Fate,Volibear,Kalista,Camille,Gangplank,Leona,Ezreal,Galio,Kha'Zix,Ornn,Nautilus,Kai'Sa,Kassadin,Sett,Wukong
+LCS.A,Summer,10.14,Golden Guardians Academy,1,Immortals Academy,Graves,Kalista,Olaf,Ornn,Galio,Trundle,Ezreal,Wukong,Kindred,Aatrox,Karma,Aphelios,Twisted Fate,Sett,Gangplank,Nautilus,Ashe,Sylas,Volibear,Cho'Gath
+LCS.A,Summer,10.14,Dignitas Academy,0,CLG Academy,Syndra,Karma,Trundle,Jayce,Draven,Kalista,Twisted Fate,Sett,Ornn,Orianna,Senna,Wukong,Lucian,Olaf,Kennen,Pantheon,Caitlyn,Galio,Vi,Malphite
+LCS.A,Summer,10.14,100 Thieves Academy,1,Team Liquid Academy,Kennen,Sett,Trundle,Irelia,Wukong,Twisted Fate,Kalista,Graves,Syndra,Rumble,Karma,Ezreal,Orianna,Olaf,Camille,Thresh,Ashe,Kog'Maw,Volibear,Gangplank
+LCS.A,Summer,10.14,Immortals Academy,0,CLG Academy,Trundle,Pantheon,Wukong,Kai'Sa,Rakan,Twisted Fate,Kalista,Karma,Gangplank,Mordekaiser,Braum,Ezreal,Morgana,Olaf,Kayle,Galio,Jhin,Orianna,Vi,Ornn
+LCS.A,Summer,10.14,Dignitas Academy,0,Golden Guardians Academy,Karma,Syndra,Ezreal,Gangplank,Renekton,Kalista,Karthus,Twisted Fate,Jayce,Kennen,Senna,Wukong,Lucian,Gragas,Sett,Thresh,Ashe,Galio,Volibear,Aatrox
+LCS.A,Summer,10.14,Evil Geniuses Academy,0,Cloud9 Academy,Syndra,Kha'Zix,Volibear,Ornn,Camille,Ezreal,Olaf,Trundle,Wukong,Tahm Kench,Braum,Ashe,Twisted Fate,Graves,Jayce,Thresh,Kalista,Sylas,Sett,Malphite
+LCS.A,Summer,10.14,FlyQuest Academy,1,TSM Academy,Graves,Kalista,Aphelios,Ornn,Gangplank,Ezreal,Twisted Fate,Kog'Maw,Kassadin,Corki,Tahm Kench,Ashe,LeBlanc,Volibear,Sett,Rakan,Xayah,Orianna,Trundle,Aatrox
+LCS,Summer,10.14,Team SoloMid,1,100 Thieves,Karma,Ezreal,Kalista,Malphite,Thresh,Twisted Fate,Ornn,Volibear,Braum,Nautilus,Leona,Aphelios,LeBlanc,Graves,Jayce,Lulu,Ashe,Syndra,Olaf,Wukong
+LCS,Summer,10.14,Team Liquid,1,Evil Geniuses,Rumble,Ashe,Ezreal,Wukong,Gangplank,Twisted Fate,Ornn,Aphelios,Thresh,Taric,Bard,Kalista,Azir,Lee Sin,Mordekaiser,Braum,Senna,Orianna,Sett,Karma
+LCS,Summer,10.14,Counter Logic Gaming,0,Dignitas,LeBlanc,Azir,Karma,Thresh,Kennen,Twisted Fate,Volibear,Syndra,Malphite,Yuumi,Nautilus,Ezreal,Zoe,Graves,Ornn,Bard,Ashe,Orianna,Sett,Riven
+LCS,Summer,10.14,Evil Geniuses,1,Cloud9,Olaf,LeBlanc,Twisted Fate,Jayce,Thresh,Ezreal,Karma,Rumble,Blitzcrank,Nautilus,Alistar,Aphelios,Zoe,Volibear,Gangplank,Bard,Ashe,Syndra,Lee Sin,Sett
+LCS,Summer,10.14,FlyQuest,1,Team SoloMid,Twisted Fate,LeBlanc,Aphelios,Wukong,Tahm Kench,Ezreal,Trundle,Karma,Thresh,Sett,Pantheon,Ashe,Syndra,Volibear,Renekton,Braum,Senna,Orianna,Olaf,Ornn
+LCS,Summer,10.14,Golden Guardians,1,Immortals,Orianna,Graves,Ezreal,Azir,Thresh,Karma,Olaf,Volibear,Nidalee,Lee Sin,Bard,Aphelios,Twisted Fate,Sett,Gangplank,Morgana,Ashe,Karthus,Trundle,Ornn
+LCS,Summer,10.14,100 Thieves,0,Team Liquid,Kalista,Azir,Aphelios,Syndra,LeBlanc,Olaf,Nidalee,Twisted Fate,Kayle,Camille,Karma,Ashe,Orianna,Lee Sin,Jayce,Bard,Ezreal,Zoe,Graves,Ornn
+LCS,Summer,10.14,Cloud9,1,FlyQuest,Volibear,Karma,Aphelios,Azir,Renekton,Twisted Fate,Olaf,Lee Sin,Jayce,Zoe,Thresh,Kalista,Galio,Sett,Kayle,Pantheon,Ezreal,Orianna,Trundle,Ornn
+LCS,Summer,10.14,Counter Logic Gaming,0,Immortals,Orianna,Ashe,Karma,Yuumi,Rakan,Twisted Fate,Kalista,Syndra,Sylas,Gangplank,Thresh,Aphelios,Azir,Volibear,Camille,Braum,Ezreal,Kog'Maw,Graves,Ornn
+LCS,Summer,10.14,Golden Guardians,1,Dignitas,Azir,Graves,Karma,Riven,Thresh,Twisted Fate,Volibear,Ashe,Camille,Malphite,Yuumi,Ezreal,Galio,Olaf,Kennen,Lulu,Kog'Maw,Zoe,Trundle,Wukong
+LCS.A,Summer,10.14,100 Thieves Academy,1,CLG Academy,Galio,Ornn,Volibear,Wukong,Karthus,Twisted Fate,Karma,Kalista,Jayce,,Yuumi,Ezreal,Azir,Graves,Aatrox,Lulu,Jhin,Rumble,Sett,Gangplank
+LCS.A,Summer,10.14,Cloud9 Academy,1,Team Liquid Academy,Olaf,Kennen,Trundle,Vladimir,Malphite,Kalista,Ezreal,Thresh,Karma,Bard,Blitzcrank,Senna,Twisted Fate,Volibear,Wukong,Tahm Kench,Ashe,Sylas,Sett,Gangplank
+LCS.A,Summer,10.14,Evil Geniuses Academy,1,Immortals Academy,Syndra,Azir,Graves,Galio,Zoe,Trundle,Twisted Fate,Kalista,Wukong,Irelia,Nautilus,Aphelios,Karma,Nidalee,Volibear,Bard,Ezreal,Orianna,Olaf,Ornn
+LCS.A,Summer,10.14,TSM Academy,0,Dignitas Academy,Ashe,Wukong,LeBlanc,Camille,Malphite,Kalista,Karma,Twisted Fate,Ornn,Thresh,Braum,Aphelios,Zoe,Graves,Jayce,Bard,Ezreal,Galio,Kha'Zix,Poppy
+LCS.A,Summer,10.14,FlyQuest Academy,0,Golden Guardians Academy,Galio,Karma,Gangplank,Kassadin,Malphite,Kalista,Karthus,Twisted Fate,Rumble,Nidalee,Pantheon,Jhin,Zoe,Volibear,Wukong,Thresh,Ashe,Syndra,Graves,Maokai
+LCS.A,Summer,10.14,Immortals Academy,0,Cloud9 Academy,Kalista,Trundle,Wukong,Camille,Thresh,Ezreal,Olaf,Volibear,Ornn,Mordekaiser,Pantheon,Jhin,Twisted Fate,Kha'Zix,Kennen,Rakan,Ashe,Galio,Sett,Sylas
+LCS.A,Summer,10.14,TSM Academy,1,CLG Academy,Galio,Ornn,Wukong,Ashe,Thresh,Kalista,Twisted Fate,Karma,Ryze,Aatrox,Bard,Ezreal,Cassiopeia,Trundle,Irelia,Rakan,Jhin,Rumble,Sett,Vladimir
+LCS.A,Summer,10.14,Dignitas Academy,1,Evil Geniuses Academy,Volibear,Twisted Fate,Irelia,Sylas,Thresh,Kalista,Bard,Karma,Graves,Kha'Zix,Braum,Ashe,LeBlanc,Lee Sin,Ornn,Morgana,Aphelios,Galio,Trundle,Sett
+LCS.A,Summer,10.14,Team Liquid Academy,0,FlyQuest Academy,Karthus,Twisted Fate,Kalista,Braum,Zoe,Olaf,Kennen,Volibear,Nidalee,Kassadin,Nautilus,Kai'Sa,Kog'Maw,Sett,Gangplank,Karma,Ezreal,Azir,Trundle,Wukong
+LCS.A,Summer,10.14,Golden Guardians Academy,0,100 Thieves Academy,Kalista,Galio,Nidalee,Orianna,Thresh,Twisted Fate,Ezreal,Volibear,Azir,Wukong,Karma,Senna,Zoe,Olaf,Ornn,Lulu,Ashe,Syndra,Kindred,Sett
+LCS,Summer,10.14,Evil Geniuses,1,Immortals,Ornn,Ezreal,Karma,Thresh,Morgana,Rumble,LeBlanc,Twisted Fate,Bard,Syndra,Alistar,Aphelios,Zoe,Volibear,Gangplank,Braum,Ashe,Azir,Graves,Urgot
+LCS,Summer,10.14,Team Liquid,0,FlyQuest,Pantheon,Trundle,Karma,Olaf,Syndra,Twisted Fate,Aphelios,Azir,Jayce,LeBlanc,Bard,Ezreal,Zoe,Volibear,Kennen,Rakan,Ashe,Orianna,Sett,Renekton
+LCS,Summer,10.14,100 Thieves,1,Counter Logic Gaming,Ornn,Ezreal,Twisted Fate,Corki,Kalista,Olaf,Aphelios,Karma,Jayce,Camille,Thresh,Ashe,Galio,Graves,Wukong,Bard,Xayah,Orianna,Sett,Kennen
+LCS,Summer,10.14,Team SoloMid,1,Dignitas,Azir,Graves,Karma,Riven,Irelia,Olaf,Volibear,Twisted Fate,Galio,Orianna,Rakan,Xayah,Syndra,Sett,Wukong,Tahm Kench,Ashe,Ekko,Karthus,Jayce
+LCS,Summer,10.14,FlyQuest,1,Golden Guardians,Twisted Fate,Olaf,Karma,Bard,Camille,Pantheon,Trundle,Orianna,Renekton,Jayce,Rakan,Aphelios,Azir,Sett,Ornn,Nautilus,Ezreal,Galio,Volibear,Kennen
+LCS,Summer,10.14,Immortals,0,Cloud9,Twisted Fate,Aphelios,Olaf,Alistar,Wukong,Karma,Graves,Orianna,Malphite,Ornn,Nautilus,Ashe,Zoe,Sett,Maokai,Morgana,Kalista,Galio,Volibear,Kennen
+LCS,Summer,10.14,Dignitas,1,Evil Geniuses,Rumble,Ezreal,Olaf,Gangplank,Jayce,Azir,Kalista,Karma,Riven,Bard,Blitzcrank,Ashe,Orianna,Graves,Volibear,Thresh,Aphelios,Galio,Sett,Camille
+LCS,Summer,10.14,Cloud9,0,Team Liquid,Azir,Kalista,LeBlanc,Orianna,Gangplank,Twisted Fate,Olaf,Volibear,Jayce,Galio,Lux,Sona,Sett,Hecarim,Shen,Blitzcrank,Ezreal,Syndra,Trundle,Mordekaiser
+LCS,Summer,10.14,Counter Logic Gaming,0,Team SoloMid,Aphelios,Sett,Xayah,Azir,Lee Sin,Twisted Fate,Volibear,Olaf,Camille,Thresh,Braum,Ashe,Galio,Graves,Gnar,Karma,Ezreal,Cassiopeia,Jarvan IV,Ornn
+LCS,Summer,10.14,Golden Guardians,1,100 Thieves,Graves,Nidalee,Azir,Jayce,Syndra,Twisted Fate,Ezreal,Galio,Ornn,Rumble,Sett,Aphelios,Zoe,Olaf,Karma,Bard,Ashe,Orianna,Lee Sin,Kennen
+LCS.A,Summer,10.15,Team Liquid Academy,1,Dignitas Academy,Ashe,Volibear,Galio,Ornn,Graves,Kennen,Olaf,Sona,Sylas,Nidalee,Blitzcrank,Kai'Sa,Sett,Karthus,Gangplank,Thresh,Kalista,Twisted Fate,Lee Sin,Vladimir
+LCS.A,Summer,10.15,Golden Guardians Academy,1,CLG Academy,Sona,Galio,Kalista,Caitlyn,Pantheon,Karma,Twisted Fate,Bard,Gangplank,Kayle,Rakan,Ezreal,Sett,Nidalee,Camille,Leona,Xayah,Rumble,Vi,Ornn
+LCS.A,Summer,10.15,TSM Academy,0,Cloud9 Academy,Galio,Olaf,Kalista,Gangplank,Nautilus,Twisted Fate,Trundle,Ezreal,Orianna,Ornn,Thresh,Ashe,Irelia,Gragas,Sett,Tahm Kench,Senna,Zoe,Volibear,Wukong
+LCS.A,Summer,10.15,Immortals Academy,1,100 Thieves Academy,Karma,Olaf,Kalista,Thresh,Camille,Ezreal,Galio,Sona,Gangplank,Wukong,Pantheon,Jhin,Twisted Fate,Volibear,Mordekaiser,Tahm Kench,Ashe,Orianna,Trundle,Sett
+LCS.A,Summer,10.15,FlyQuest Academy,0,Evil Geniuses Academy,Galio,Karma,Kalista,Jayce,Camille,Azir,Pantheon,Volibear,Bard,Trundle,Sett,Ezreal,Sylas,Graves,Ornn,Nautilus,Ashe,Twisted Fate,Olaf,Shen
+LCS.A,Summer,10.15,Cloud9 Academy,1,Golden Guardians Academy,Olaf,Galio,Ezreal,Tahm Kench,Malphite,Sett,Volibear,Thresh,Gangplank,Camille,Bard,Kalista,Twisted Fate,Rek'Sai,Wukong,Alistar,Ashe,Orianna,Graves,Shen
+LCS.A,Summer,10.15,CLG Academy,1,Team Liquid Academy,Kennen,Volibear,Ashe,Aatrox,Ryze,Galio,Sett,Rumble,Ornn,Twisted Fate,Nautilus,Kalista,Orianna,Vi,Vladimir,Tahm Kench,Ezreal,Irelia,Olaf,Karma
+LCS.A,Summer,10.15,Dignitas Academy,1,Immortals Academy,Sona,Twisted Fate,Ezreal,Pantheon,Ornn,Kalista,Olaf,Thresh,Galio,LeBlanc,Karma,Jhin,Karthus,Volibear,Wukong,Bard,Ashe,Azir,Sett,Kennen
+LCS.A,Summer,10.15,100 Thieves Academy,1,FlyQuest Academy,Galio,Sona,Volibear,Rek'Sai,Gangplank,Kalista,Karma,Twisted Fate,Bard,Leona,Braum,Ezreal,Syndra,Lee Sin,Renekton,Nautilus,Aphelios,Orianna,Sett,Quinn
+LCS.A,Summer,10.15,Evil Geniuses Academy,1,TSM Academy,Azir,Trundle,Karma,Ornn,Malphite,Galio,Kalista,Olaf,Nidalee,Gangplank,Nautilus,Jhin,Twisted Fate,Graves,Volibear,Tahm Kench,Ashe,Sylas,Sett,Renekton
+LCS,Summer,10.15,Team Liquid,1,Dignitas,Ashe,Caitlyn,Graves,Riven,Kennen,Lee Sin,Kalista,Olaf,Tahm Kench,Jayce,Braum,Ezreal,LeBlanc,Volibear,Shen,Rakan,Kai'Sa,Azir,Sett,Renekton
+LCS,Summer,10.15,Evil Geniuses,0,Team SoloMid,Olaf,LeBlanc,Kalista,Twisted Fate,Irelia,Gangplank,Ezreal,Karma,Ornn,Rumble,Senna,Ashe,Zoe,Graves,Kennen,Morgana,Caitlyn,Zilean,Volibear,Malphite
+LCS,Summer,10.15,100 Thieves,0,FlyQuest,Orianna,Ornn,Ashe,Blitzcrank,Trundle,Twisted Fate,Olaf,Karma,Jayce,Morgana,Nautilus,Caitlyn,Zoe,Volibear,Renekton,Thresh,Senna,LeBlanc,Sett,Shen
+LCS,Summer,10.15,Cloud9,0,Golden Guardians,Karma,Caitlyn,Galio,Twisted Fate,LeBlanc,Olaf,Sona,Nidalee,Shen,Kayle,Nautilus,Aphelios,Zoe,Trundle,Sett,Morgana,Kalista,Syndra,Volibear,Sion
+LCS,Summer,10.15,Counter Logic Gaming,0,Team Liquid,Azir,Ezreal,Mordekaiser,Ornn,Kennen,Volibear,Karma,Camille,Jayce,Gangplank,Morgana,Caitlyn,Syndra,Sett,Rumble,Tahm Kench,Ashe,LeBlanc,Graves,Renekton
+LCS,Summer,10.15,Dignitas,0,Immortals,Olaf,Karma,Volibear,Urgot,Poppy,Kalista,Bard,Graves,Morgana,Blitzcrank,Lux,Caitlyn,LeBlanc,Lee Sin,Sett,Thresh,Ashe,Corki,Trundle,Ornn
+LCS,Summer,10.15,Golden Guardians,1,Counter Logic Gaming,Camille,Caitlyn,Karma,Azir,Jayce,Olaf,Galio,Nidalee,Tahm Kench,Renekton,Bard,Aphelios,Twisted Fate,Sett,Kennen,Morgana,Kalista,Ryze,Volibear,Maokai
+LCS,Summer,10.15,Team SoloMid,1,Cloud9,Olaf,Kalista,Ezreal,Galio,Renekton,Graves,Nidalee,Xayah,LeBlanc,Sylas,Morgana,Caitlyn,Twisted Fate,Sett,Irelia,Karma,Ashe,Azir,Volibear,Kennen
+LCS,Summer,10.15,Evil Geniuses,0,FlyQuest,Orianna,Azir,LeBlanc,Ahri,Shen,Twisted Fate,Karma,Olaf,Bard,Graves,Nautilus,Ezreal,Syndra,Volibear,Rumble,Thresh,Ashe,Corki,Trundle,Sett
+LCS,Summer,10.15,100 Thieves,1,Immortals,Ornn,Orianna,Ashe,Urgot,Thresh,Karma,Olaf,Renekton,Morgana,Blitzcrank,Tahm Kench,Caitlyn,Syndra,Graves,Gangplank,Nautilus,Jhin,Zoe,Sett,Sion
+LCS.A,Summer,10.15,CLG Academy,1,FlyQuest Academy,Lillia,Karma,Bard,Trundle,Morgana,Galio,Twisted Fate,Volibear,Zoe,Kha'Zix,Blitzcrank,Ezreal,Corki,Sett,Gangplank,Nautilus,Caitlyn,Azir,Lee Sin,Jayce
+LCS.A,Summer,10.15,Evil Geniuses Academy,0,100 Thieves Academy,Azir,Karma,Sett,Orianna,Renekton,Ezreal,Galio,Volibear,Nidalee,Olaf,Nautilus,Jhin,Twisted Fate,Graves,Camille,Braum,Ashe,Sylas,Lee Sin,Mordekaiser
+LCS.A,Summer,10.15,Immortals Academy,1,Team Liquid Academy,Olaf,Trundle,Karma,Blitzcrank,Wukong,Galio,Twisted Fate,Pantheon,Cassiopeia,Azir,Tahm Kench,Caitlyn,LeBlanc,Volibear,Kennen,Bard,Ashe,Sett,Gragas,Lillia
+LCS.A,Summer,10.15,Dignitas Academy,1,Cloud9 Academy,Sona,Azir,Galio,Wukong,Gangplank,Olaf,Karthus,Twisted Fate,LeBlanc,Graves,Karma,Ashe,Sett,Nidalee,Renekton,Blitzcrank,Kalista,Orianna,Volibear,Jayce
+LCS.A,Summer,10.15,TSM Academy,1,Golden Guardians Academy,Twisted Fate,Galio,Sett,Lissandra,Renekton,Kalista,Ezreal,Volibear,Thresh,Nautilus,Bard,Senna,LeBlanc,Olaf,Camille,Karma,Ashe,Corki,Graves,Shen
+LCS.A,Summer,10.15,FlyQuest Academy,1,Immortals Academy,Twisted Fate,Olaf,Ezreal,LeBlanc,Corki,Trundle,Wukong,Karma,Morgana,Tahm Kench,Leona,Caitlyn,Azir,Volibear,Lillia,Nautilus,Kalista,Kog'Maw,Sett,Jayce
+LCS.A,Summer,10.15,100 Thieves Academy,1,Dignitas Academy,Karthus,Kalista,Nidalee,Tahm Kench,Thresh,Karma,Sett,Azir,Yuumi,Olaf,Bard,Ezreal,Galio,Graves,Camille,Braum,Ashe,LeBlanc,Volibear,Renekton
+LCS.A,Summer,10.15,Golden Guardians Academy,1,Evil Geniuses Academy,Kalista,Volibear,Irelia,Bard,Lee Sin,Twisted Fate,Karma,Sett,Rakan,Sona,Thresh,Ashe,Galio,Nidalee,Camille,Braum,Ezreal,Zoe,Olaf,Renekton
+LCS.A,Summer,10.15,Team Liquid Academy,0,TSM Academy,Ashe,Volibear,Karma,Graves,Rek'Sai,Olaf,Galio,Sett,Irelia,Lucian,Thresh,Jhin,Kalista,Karthus,Lillia,Morgana,Caitlyn,LeBlanc,Skarner,Jayce
+LCS,Summer,10.15,Dignitas,0,Cloud9,Olaf,Kalista,Ezreal,Jayce,Galio,Volibear,Shen,Kha'Zix,Azir,Karthus,Karma,Ashe,Sett,Lillia,Renekton,Nautilus,Senna,Orianna,Nidalee,Gangplank
+LCS,Summer,10.15,Team SoloMid,1,Golden Guardians,Olaf,Kalista,Karma,Galio,Pantheon,Twisted Fate,Volibear,Caitlyn,Akali,Zilean,Yuumi,Lucian,LeBlanc,Sett,Shen,Bard,Ezreal,Sylas,Nidalee,Renekton
+LCS,Summer,10.15,Evil Geniuses,1,Golden Guardians,Olaf,Karma,Caitlyn,Ornn,Sion,Gangplank,Volibear,Zoe,Irelia,Galio,Tahm Kench,Senna,Azir,Sett,Gnar,Bard,Kalista,Ekko,Nidalee,Renekton
+LCS,Summer,10.15,Immortals,0,Team Liquid,Kalista,Gangplank,Orianna,LeBlanc,Shen,Karma,Twisted Fate,Corki,Malphite,Galio,Morgana,Caitlyn,Azir,Olaf,Sion,Thresh,Ashe,Akali,Volibear,Ornn
+LCS,Summer,10.15,Counter Logic Gaming,0,FlyQuest,Azir,Renekton,Swain,Rakan,Thresh,Camille,Caitlyn,Galio,LeBlanc,Rumble,Bard,Ezreal,Syndra,Sett,Kennen,Pyke,Ashe,Orianna,Trundle,Mordekaiser
+LCS,Summer,10.15,Evil Geniuses,0,100 Thieves,Olaf,Karma,Caitlyn,Jayce,Renekton,Rumble,Ezreal,Sett,Azir,Gangplank,Thresh,Kalista,Corki,Graves,Shen,Tahm Kench,Ashe,Galio,Nidalee,Camille
+LCS,Summer,10.15,Counter Logic Gaming,0,Cloud9,Olaf,Ezreal,Karma,LeBlanc,Akali,Galio,Sett,Caitlyn,Blitzcrank,Morgana,Alistar,Aphelios,Orianna,Volibear,Ornn,Thresh,Kalista,Zoe,Graves,Gangplank
+LCS,Summer,10.15,FlyQuest,1,Immortals,Karma,Olaf,Ashe,Tahm Kench,Jhin,Sett,Volibear,Caitlyn,Gangplank,Kalista,Thresh,Aphelios,Orianna,Graves,Maokai,Braum,Ezreal,Twisted Fate,Nidalee,Ornn
+LCS,Summer,10.15,Counter Logic Gaming,0,Dignitas,Azir,Nidalee,Karma,Riven,Thresh,Galio,Jayce,Caitlyn,LeBlanc,Syndra,Bard,Ezreal,Twisted Fate,Sett,Camille,Soraka,Ashe,Zoe,Olaf,Shen
+LCS,Summer,10.16,Team SoloMid,0,Golden Guardians,Olaf,Kalista,Ekko,Nidalee,Camille,Akali,Zilean,LeBlanc,Graves,Shen,Bard,Caitlyn,Azir,Lee Sin,Ornn,Morgana,Ashe,Ziggs,Sett,Gangplank
+LCS.A,Summer,10.16,Golden Guardians Academy,1,CLG Academy,Kalista,Pantheon,Galio,Blitzcrank,Nautilus,Twisted Fate,Nidalee,Camille,Vladimir,Corki,Thresh,Caitlyn,Ekko,Graves,Tryndamere,Morgana,Jhin,Azir,Skarner,Gangplank
+LCS.A,Summer,10.16,Golden Guardians Academy,0,CLG Academy,Kalista,Pantheon,Galio,Vladimir,Ornn,Camille,Nidalee,Twisted Fate,Sejuani,Gangplank,Morgana,Caitlyn,Azir,Trundle,Wukong,Senna,Ashe,Orianna,Olaf,Mordekaiser
+LCS.A,Summer,10.16,CLG Academy,0,Golden Guardians Academy,Nidalee,Camille,Twisted Fate,Tryndamere,Gangplank,Kalista,Galio,Caitlyn,Yuumi,Blitzcrank,Sett,Lucian,Orianna,Vi,Ornn,Thresh,Ashe,Azir,Graves,Kayle
+LCS.A,Summer,10.16,Golden Guardians Academy,0,CLG Academy,Kalista,Galio,Caitlyn,Mordekaiser,Olaf,Camille,Twisted Fate,Nidalee,Tryndamere,Ekko,Thresh,Ashe,Akali,Graves,Gangplank,Blitzcrank,Senna,Azir,Vi,Vladimir
+LCS.A,Summer,10.16,CLG Academy,1,Golden Guardians Academy,Nidalee,Camille,Twisted Fate,Tryndamere,Gangplank,Kalista,Galio,Caitlyn,Ezreal,Senna,Alistar,Draven,Azir,Trundle,Ornn,Braum,Ashe,Karma,Olaf,Kayle
+LCS,Summer,10.16,FlyQuest,1,Evil Geniuses,Kalista,Olaf,Karma,Gangplank,Rumble,Blitzcrank,Morgana,Sett,Renekton,Corki,Thresh,Caitlyn,Swain,Volibear,Shen,Tahm Kench,Ashe,Galio,Graves,Hecarim
+LCS,Summer,10.16,Evil Geniuses,0,FlyQuest,Blitzcrank,Trundle,Renekton,Corki,Orianna,Caitlyn,Olaf,Gangplank,Rumble,Shen,Rakan,Xayah,Azir,Sett,Hecarim,Gragas,Ashe,Syndra,Volibear,Mordekaiser
+LCS,Summer,10.16,Evil Geniuses,1,FlyQuest,Blitzcrank,Trundle,Mordekaiser,Bard,Corki,Caitlyn,Olaf,Kalista,Gangplank,Azir,Tahm Kench,Senna,Orianna,Sett,Gnar,Rakan,Ashe,Syndra,Volibear,Renekton
+LCS,Summer,10.16,FlyQuest,0,Evil Geniuses,Kalista,Olaf,Karma,Gangplank,Gnar,Blitzcrank,Sett,Caitlyn,Renekton,Corki,Bard,Ashe,Orianna,Volibear,Jayce,Tahm Kench,Senna,LeBlanc,Graves,Shen
+LCS,Summer,10.16,FlyQuest,1,Evil Geniuses,Kalista,Olaf,Tahm Kench,Karma,LeBlanc,Sett,Caitlyn,Ashe,Jayce,Corki,Thresh,Senna,Kog'Maw,Graves,Mordekaiser,Braum,Ezreal,Azir,Sejuani,Gangplank
+LCS.A,Summer,10.16,100 Thieves Academy,0,Evil Geniuses Academy,Caitlyn,Galio,Kalista,Thresh,Shen,Azir,Ziggs,Lee Sin,Bard,Yuumi,Tahm Kench,Ezreal,Orianna,Sett,Gangplank,Nautilus,Ashe,Akali,Nidalee,Renekton
+LCS.A,Summer,10.16,100 Thieves Academy,0,Evil Geniuses Academy,Caitlyn,Galio,Kalista,Shen,Renekton,Azir,Ziggs,Sett,Bard,Yuumi,Braum,Ezreal,Orianna,Lee Sin,Ornn,Tahm Kench,Senna,Akali,Nidalee,Volibear
+LCS.A,Summer,10.16,Evil Geniuses Academy,1,100 Thieves Academy,Azir,Ziggs,Galio,Gangplank,Sylas,Ezreal,Nidalee,Irelia,Olaf,Kindred,Morgana,Caitlyn,Akali,Lee Sin,Renekton,Karma,Ashe,LeBlanc,Graves,Shen
+LCS,Summer,10.16,Dignitas,0,Team SoloMid,LeBlanc,Akali,Ashe,Nidalee,Zilean,Azir,Graves,Caitlyn,Tahm Kench,Zoe,Braum,Senna,Orianna,Olaf,Renekton,Karma,Aphelios,Syndra,Sett,Shen
+LCS,Summer,10.16,Dignitas,0,Team SoloMid,LeBlanc,Akali,Ashe,Irelia,Zilean,Azir,Graves,Caitlyn,Olaf,Tahm Kench,Leona,Senna,Zoe,Kayn,Renekton,Braum,Ezreal,Sett,Nidalee,Shen
+LCS,Summer,10.16,Team SoloMid,1,Dignitas,Azir,Graves,Nidalee,Lee Sin,Riven,LeBlanc,Akali,Irelia,Zilean,Shen,Morgana,Caitlyn,Twisted Fate,Olaf,Camille,Karma,Ashe,Zoe,Kindred,Ornn
+LCS,Summer,10.16,Evil Geniuses,1,100 Thieves,Olaf,Galio,Caitlyn,Morgana,Thresh,Sett,Senna,Ezreal,Shen,Gangplank,Rakan,Xayah,Orianna,Graves,Ornn,Tahm Kench,Ashe,Twisted Fate,Nidalee,Renekton
+LCS,Summer,10.16,100 Thieves,0,Evil Geniuses,Sett,Gangplank,Senna,LeBlanc,Akali,Olaf,Galio,Morgana,Bard,Thresh,Blitzcrank,Caitlyn,Zoe,Nidalee,Renekton,Tahm Kench,Ashe,Twisted Fate,Graves,Shen
+LCS,Summer,10.16,Evil Geniuses,1,100 Thieves,Olaf,Galio,Caitlyn,Bard,Jayce,Sett,Kalista,Shen,Corki,Ornn,Yuumi,Lucian,Zoe,Graves,Hecarim,Pantheon,Ezreal,LeBlanc,Lee Sin,Malphite

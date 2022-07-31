@@ -1,10 +1,303 @@
 <html>
 <script src='https://d3js.org/d3.v5.min.js'></script>
-<style> circle {fill: lightblue; stroke: black;} </style>
+<script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+<style> 
+    circle {
+
+        fill: lightblue; 
+        stroke: black;
+    }
+
+
+    div.tooltip {	
+        position: absolute;			
+        text-align: left;			
+        width: 140px;					
+        height: 111px;					
+        padding-left: 5px;
+        padding-top: 2px;
+        padding-bottom: 3px;
+        padding-right: 2px;
+        font: 12px sans-serif;		
+        background: lightsteelblue;	
+        border: 0px;		
+        border-radius: 8px;			
+        pointer-events: none;			
+    }
+
+    .gridline {
+        stroke: lightgrey;
+        stroke-opacity: 0.2;
+        shape-rendering: crispEdges;
+    }
+
+    .plotdiv {
+        margin-left: 140px;
+    }
+    
+    </style>
     <body onload='init()'>
-        <svg width=300 height=300>
-        </svg>
+
+        <select id="yearButton1"></select>
+        <select id="yearButton2"></select>
+
+        <div class="plotdiv" id="plot">
+        </div>
+
         <script>
+
+            async function init() {
+                 
+                var margin = {x: 50, y: 50},
+                width = 900, height = 550;
+
+                // Define SVG
+                var svg = d3.select("#plot")
+                .append("svg")
+                    .attr("width", width)
+                    .attr("height", height)
+                
+                // Define the two groups
+                var group1 = svg.append("g")
+                    .attr("transform", "translate(" + margin.x + "," + margin.y + ")");
+                
+                var group2 = svg.append("g")
+                    .attr("transform", "translate(" + margin.x + "," + margin.y + ")");
+
+
+                // P+B or P% or B%
+                var xScale = d3.scaleLinear().domain([0,1]).range([0, 800]);
+                
+                // W%
+                var yScale = d3.scaleLinear().domain([0,1]).range([450, 0]);
+
+                var sizeScale = d3.scaleLinear().domain([0,57]).range([75, 500]);
+                
+                var data = await d3.csv("/worlds.csv")
+                var allYears = d3.map(data, function(d){return(d.Year)}).keys()
+                
+
+
+                // Button 1
+                d3.select("#yearButton1")
+                .selectAll('myOptions')
+                    .data(allYears)
+                .enter()
+                    .append('option')
+                .text(function (d) { return d; })
+                .attr("value", function (d) { return d; })
+
+
+                // Button 2
+                d3.select("#yearButton2")
+                .selectAll('myOptions')
+                    .data(allYears)
+                .enter()
+                    .append('option')
+                .text(function (d) { return d; })
+                .attr("value", function (d) { return d; })
+                .property("selected", function(d){ return d === "2016"; })
+
+
+
+                var yearColor = d3.scaleOrdinal()
+                    .domain(allYears)
+                    .range(d3.schemeSet2);
+
+                
+                var colors = d3.scaleOrdinal()
+                .domain(allYears)
+                .range(["#bd1a1a", "#e86500", "#fcf403", "#71f505", "#048014", 
+                        "#0ccf9b", "#42c4eb", "#362deb", "#8c12c4", "#e60e96", "#365675"]);
+                
+                var symbol = d3.symbol();
+
+                // color = d3.scaleOrdinal(d3.schemeCategory10)
+                shape = d3.scaleOrdinal(
+                    data.map(d => d.year),
+                    d3.symbols.map(s => d3.symbol().type(s)()))
+
+                var div = d3.select("body")
+                    .append("div")
+                    .attr("class", "tooltip")
+                    .style("opacity", 0);
+
+
+                
+                var scatterplot1 = group1.selectAll('path').data(data.filter(function(d){return d.Year==allYears[0]}))
+                    .join("path")
+                    .attr("transform",
+                    d => "translate(" + xScale(d.PB/100) + "," + yScale(d.W/100) + ")")
+                    .attr("d", d3.symbol().type(d3.symbolCircle).size(function(d){return d.GP * 50}))
+                    .attr("fill", function(d){return colors(allYears[0])})
+                    .attr("opacity","0.8")
+                        .on("mouseover", function(d){
+                            div.transition()		
+                            .duration(100)		
+                            .style("opacity", .9);
+                            div	.html("Champion: " + d.Champion + "<br/>" + 
+                            "Position: " + d.Pos + "<br/>" + 
+                            "Year: " + d.Year + "<br/>" + 
+                            "Games Played: " + d.GP + "<br/>" + 
+                            "Winrate: " + d.W + "%" + "<br/>" + 
+                            "Pick Rate: " + d.P + "%" + "<br/>" + 
+                            "Ban Rate: " + d.B + "%" +  "<br/>" + 
+                            "Pick or Ban Rate: " + d.PB + "%")	
+                                .style("left", (d3.event.pageX) + "px")		
+                                .style("top", (d3.event.pageY) + 10 + "px")
+                                .style("width", function() {
+                                if (d.Champion == "Nunu & Willump"){
+                                    return "150px";
+                                }
+                                return "140px"});
+                            d3.select(this).style('stroke', 'black');
+                            })
+                            .on("mouseout", function(d) {		
+                                div.transition()		
+                                    .duration(200)		
+                                    .style("opacity", 0);	
+                                d3.select(this).style('stroke', 'transparent');
+                            });
+
+                // var labels1 = group1.selectAll("text").data(data.filter(function(d){return d.Year==allYears[0]}))
+                //     .enter().append("text")
+                //     .text(function(d){return d.Champion;})
+                //     .attr("x", function (d) {return xScale(d.PB/100);})
+                //     .attr("y", function (d) {return yScale(d.W/100);});
+
+
+                var scatterplot2 = group2.selectAll('path').data(data.filter(function(d){return d.Year==allYears[5]}))
+                    .join("path")
+                    .attr("transform",
+                    d => "translate(" + xScale(d.PB/100) + "," + yScale(d.W/100) + ")")
+                    .attr("d", d3.symbol().type(d3.symbolCross).size(function(d){return d.GP * 25}))
+                    .attr("fill", function(d){return colors(allYears[5])})
+                    .attr("opacity","0.8")
+                        .on("mouseover", function(d){
+                            div.transition()		
+                            .duration(200)		
+                            .style("opacity", .9);
+                            div.html("Champion: " + d.Champion + "<br/>" + 
+                            "Position: " + d.Pos + "<br/>" + 
+                            "Year: " + d.Year + "<br/>" + 
+                            "Games Played: " + d.GP + "<br/>" + 
+                            "Winrate: " + d.W + "%" + "<br/>" + 
+                            "Pick Rate: " + d.P + "%" + "<br/>" + 
+                            "Ban Rate: " + d.B + "%" +  "<br/>" + 
+                            "Pick or Ban Rate: " + d.PB + "%")	
+                                .style("left", (d3.event.pageX) + "px")		
+                                .style("top", (d3.event.pageY) + 10 + "px")
+                                .style("width", function() {
+                                if (d.Champion == "Nunu & Willump"){
+                                    return "150px";
+                                }
+                                return "140px"});
+                            d3.select(this).style('stroke', 'black');
+                            })
+                            .on("mouseout", function(d) {		
+                                div.transition()		
+                                    .duration(500)		
+                                    .style("opacity", 0);	
+                                d3.select(this).style('stroke', 'transparent');
+                            });
+
+                // var labels2 = group2.selectAll("text").data(data.filter(function(d){return d.Year==allYears[5]}))
+                //     .enter().append("text")
+                //     .text(function(d){return d.Champion;})
+                //     .attr("x", function (d) {return xScale(d.PB/100);})
+                //     .attr("y", function (d) {return yScale(d.W/100);});
+
+                
+    
+
+                // y Axis
+                d3.select("svg").append("g")
+                    .attr("transform", "translate("+50+","+50+")")
+                    .call(d3.axisLeft(yScale)
+                    .tickValues([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
+                    .tickFormat(d3.format("~%")));
+
+                // x Axis
+                d3.select("svg").append("g")
+                    .attr("transform", "translate("+50+","+500+")")
+                    .call(d3.axisBottom(xScale)
+                    .tickValues([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
+                    .tickFormat(d3.format("~%")));
+
+
+                  // add the X gridlines
+                svg.append("g")			
+                    // .attr("transform", "translate(" + margin.x + "," + margin.y + ")")
+                    .attr("class", "gridline")
+                    .attr("transform", "translate(50," + (height - 50) + ")")
+                    .call(make_x_gridlines()
+                        .tickSize(-height + 100)
+                        .tickFormat("")
+                    )
+
+                // add the Y gridlines
+                svg.append("g")			
+                    // .attr("transform", "translate(" + margin.x + "," + margin.y + ")")
+                    .attr("class", "gridline")
+                    .attr("transform", "translate(50, 50 )")
+                    .call(make_y_gridlines()
+                        .tickSize(-width + 100)
+                        .tickFormat("")
+                    )
+
+
+                // Update scatterplot 1
+                function update1(newYear) {
+
+                    var dataFilter = data.filter(function(d){return d.Year==newYear})
+                    scatterplot1
+                        .data(dataFilter)
+                        .transition()
+                        .duration(1000)
+                        .attr("transform",
+                            d => "translate(" + xScale(d.PB/100) + "," + yScale(d.W/100) + ")")
+                        .attr("fill", function(d){return colors(newYear)})
+                        .attr("d", d3.symbol().type(d3.symbolCircle).size(function(d){return d.GP * 50}))
+                    }
+
+                d3.select("#yearButton1").on("change", function(d) {
+                    var selectedOption = d3.select(this).property("value")
+                    update1(selectedOption)
+                })
+
+
+                // Update scatterplot 1
+                function update2(newYear) {
+
+                    var dataFilter = data.filter(function(d){return d.Year==newYear})
+                    scatterplot2
+                        .data(dataFilter)
+                        .transition()
+                        .duration(1000)
+                        .attr("transform",
+                            d => "translate(" + xScale(d.PB/100) + "," + yScale(d.W/100) + ")")
+                        .attr("fill", function(d){return colors(newYear)})
+                        .attr("d", d3.symbol().type(d3.symbolCross).size(function(d){return d.GP * 25}))
+                    }
+
+                    d3.select("#yearButton2").on("change", function(d) {
+                    var selectedOption = d3.select(this).property("value")
+                    update2(selectedOption)
+                    })
+
+
+                function make_x_gridlines() {		
+                    return d3.axisBottom(xScale)
+                        .ticks(9)
+                }
+
+                function make_y_gridlines() {		
+                    return d3.axisLeft(yScale)
+                        .ticks(9)
+                }
+
+            }
+
         </script>
     </body>
 </html>
