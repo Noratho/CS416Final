@@ -2,11 +2,6 @@
 <script src='https://d3js.org/d3.v5.min.js'></script>
 <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
 <style> 
-    circle {
-
-        fill: lightblue; 
-        stroke: black;
-    }
 
 
     div.tooltip {	
@@ -51,20 +46,6 @@
                 var margin = {x: 50, y: 50},
                 width = 900, height = 550;
 
-                // Define SVG
-                var svg = d3.select("#plot")
-                .append("svg")
-                    .attr("width", width)
-                    .attr("height", height)
-                
-                // Define the two groups
-                var group1 = svg.append("g")
-                    .attr("transform", "translate(" + margin.x + "," + margin.y + ")");
-                
-                var group2 = svg.append("g")
-                    .attr("transform", "translate(" + margin.x + "," + margin.y + ")");
-
-
                 // P+B or P% or B%
                 var xScale = d3.scaleLinear().domain([0,1]).range([0, 800]);
                 
@@ -74,7 +55,55 @@
                 var sizeScale = d3.scaleLinear().domain([0,57]).range([75, 500]);
                 
                 var data = await d3.csv("/worlds.csv")
-                var allYears = d3.map(data, function(d){return(d.Year)}).keys()
+                var allYears = d3.map(data, function(d){return(d.Year)}).keys()      
+
+                // Define SVG
+                var svg = d3.select("#plot")
+                .append("svg")
+                    .attr("width", width)
+                    .attr("height", height)
+
+               // y Axis
+               d3.select("svg").append("g")
+                    .attr("transform", "translate("+50+","+50+")")
+                    .call(d3.axisLeft(yScale)
+                    .tickValues([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
+                    .tickFormat(d3.format("~%")));
+
+                // x Axis
+                d3.select("svg").append("g")
+                    .attr("transform", "translate("+50+","+500+")")
+                    .call(d3.axisBottom(xScale)
+                    .tickValues([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
+                    .tickFormat(d3.format("~%")));
+
+
+                // add the X gridlines
+                svg.append("g")			
+                    // .attr("transform", "translate(" + margin.x + "," + margin.y + ")")
+                    .attr("class", "gridline")
+                    .attr("transform", "translate(50," + (height - 50) + ")")
+                    .call(make_x_gridlines()
+                        .tickSize(-height + 100)
+                        .tickFormat("")
+                    )
+
+                // add the Y gridlines
+                svg.append("g")			
+                    // .attr("transform", "translate(" + margin.x + "," + margin.y + ")")
+                    .attr("class", "gridline")
+                    .attr("transform", "translate(50, 50 )")
+                    .call(make_y_gridlines()
+                        .tickSize(-width + 100)
+                        .tickFormat("")
+                    )
+                
+                // Define the two groups
+                var group1 = svg.append("g")
+                    .attr("transform", "translate(" + margin.x + "," + margin.y + ")");
+                
+                var group2 = svg.append("g")
+                    .attr("transform", "translate(" + margin.x + "," + margin.y + ")");
                 
 
 
@@ -117,7 +146,7 @@
                     data.map(d => d.year),
                     d3.symbols.map(s => d3.symbol().type(s)()))
 
-                var div = d3.select("body")
+                var tooltipDiv = d3.select("body")
                     .append("div")
                     .attr("class", "tooltip")
                     .style("opacity", 0);
@@ -131,11 +160,12 @@
                     .attr("d", d3.symbol().type(d3.symbolCircle).size(function(d){return d.GP * 50}))
                     .attr("fill", function(d){return colors(allYears[0])})
                     .attr("opacity","0.8")
+                    .style("z-index", "-1")
                         .on("mouseover", function(d){
-                            div.transition()		
+                            tooltipDiv.transition()		
                             .duration(100)		
                             .style("opacity", .9);
-                            div	.html("Champion: " + d.Champion + "<br/>" + 
+                            tooltipDiv	.html("Champion: " + d.Champion + "<br/>" + 
                             "Position: " + d.Pos + "<br/>" + 
                             "Year: " + d.Year + "<br/>" + 
                             "Games Played: " + d.GP + "<br/>" + 
@@ -153,17 +183,11 @@
                             d3.select(this).style('stroke', 'black');
                             })
                             .on("mouseout", function(d) {		
-                                div.transition()		
+                                tooltipDiv.transition()		
                                     .duration(200)		
                                     .style("opacity", 0);	
                                 d3.select(this).style('stroke', 'transparent');
                             });
-
-                // var labels1 = group1.selectAll("text").data(data.filter(function(d){return d.Year==allYears[0]}))
-                //     .enter().append("text")
-                //     .text(function(d){return d.Champion;})
-                //     .attr("x", function (d) {return xScale(d.PB/100);})
-                //     .attr("y", function (d) {return yScale(d.W/100);});
 
 
                 var scatterplot2 = group2.selectAll('path').data(data.filter(function(d){return d.Year==allYears[5]}))
@@ -174,10 +198,10 @@
                     .attr("fill", function(d){return colors(allYears[5])})
                     .attr("opacity","0.8")
                         .on("mouseover", function(d){
-                            div.transition()		
+                            tooltipDiv.transition()		
                             .duration(200)		
                             .style("opacity", .9);
-                            div.html("Champion: " + d.Champion + "<br/>" + 
+                            tooltipDiv.html("Champion: " + d.Champion + "<br/>" + 
                             "Position: " + d.Pos + "<br/>" + 
                             "Year: " + d.Year + "<br/>" + 
                             "Games Played: " + d.GP + "<br/>" + 
@@ -195,94 +219,45 @@
                             d3.select(this).style('stroke', 'black');
                             })
                             .on("mouseout", function(d) {		
-                                div.transition()		
+                                tooltipDiv.transition()		
                                     .duration(500)		
                                     .style("opacity", 0);	
                                 d3.select(this).style('stroke', 'transparent');
                             });
 
-                // var labels2 = group2.selectAll("text").data(data.filter(function(d){return d.Year==allYears[5]}))
-                //     .enter().append("text")
-                //     .text(function(d){return d.Champion;})
-                //     .attr("x", function (d) {return xScale(d.PB/100);})
-                //     .attr("y", function (d) {return yScale(d.W/100);});
-
-                
-    
-
-                // y Axis
-                d3.select("svg").append("g")
-                    .attr("transform", "translate("+50+","+50+")")
-                    .call(d3.axisLeft(yScale)
-                    .tickValues([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
-                    .tickFormat(d3.format("~%")));
-
-                // x Axis
-                d3.select("svg").append("g")
-                    .attr("transform", "translate("+50+","+500+")")
-                    .call(d3.axisBottom(xScale)
-                    .tickValues([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
-                    .tickFormat(d3.format("~%")));
 
 
-                  // add the X gridlines
-                svg.append("g")			
-                    // .attr("transform", "translate(" + margin.x + "," + margin.y + ")")
-                    .attr("class", "gridline")
-                    .attr("transform", "translate(50," + (height - 50) + ")")
-                    .call(make_x_gridlines()
-                        .tickSize(-height + 100)
-                        .tickFormat("")
-                    )
-
-                // add the Y gridlines
-                svg.append("g")			
-                    // .attr("transform", "translate(" + margin.x + "," + margin.y + ")")
-                    .attr("class", "gridline")
-                    .attr("transform", "translate(50, 50 )")
-                    .call(make_y_gridlines()
-                        .tickSize(-width + 100)
-                        .tickFormat("")
-                    )
-
-
-                // Update scatterplot 1
-                function update1(newYear) {
+                // Update scatterplot
+                function update(newYear, scatterplot, group, symbol) {
 
                     var dataFilter = data.filter(function(d){return d.Year==newYear})
-                    scatterplot1
+                    scatterplot
                         .data(dataFilter)
                         .transition()
                         .duration(1000)
                         .attr("transform",
                             d => "translate(" + xScale(d.PB/100) + "," + yScale(d.W/100) + ")")
                         .attr("fill", function(d){return colors(newYear)})
-                        .attr("d", d3.symbol().type(d3.symbolCircle).size(function(d){return d.GP * 50}))
+                        .attr("d", d3.symbol().type(symbol).size(function(d){return d.GP * 25}))
+
+
+                        group.selectAll('path').each(function(d) {
+
+                        if (d.Year != newYear) {
+                            d3.select(this).remove()
+                        }
+                        })
                     }
 
-                d3.select("#yearButton1").on("change", function(d) {
+
+                    d3.select("#yearButton1").on("change", function(d) {
                     var selectedOption = d3.select(this).property("value")
-                    update1(selectedOption)
-                })
-
-
-                // Update scatterplot 1
-                function update2(newYear) {
-
-                    var dataFilter = data.filter(function(d){return d.Year==newYear})
-                    scatterplot2
-                        .data(dataFilter)
-                        .transition()
-                        .duration(1000)
-                        .attr("transform",
-                            d => "translate(" + xScale(d.PB/100) + "," + yScale(d.W/100) + ")")
-                        .attr("fill", function(d){return colors(newYear)})
-                        .attr("d", d3.symbol().type(d3.symbolCross).size(function(d){return d.GP * 25}))
-                    }
+                    update(selectedOption, scatterplot1, group1, d3.symbolCircle)
+                    })
 
                     d3.select("#yearButton2").on("change", function(d) {
                     var selectedOption = d3.select(this).property("value")
-                    update2(selectedOption)
+                    update(selectedOption, scatterplot2, group2, d3.symbolCross)
                     })
 
 
