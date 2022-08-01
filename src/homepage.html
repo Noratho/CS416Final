@@ -27,7 +27,7 @@
     }
 
     .plotdiv {
-        margin-left: 140px;
+        margin-left: 40px;
     }
 
     .ylabel {
@@ -39,19 +39,30 @@
     }
 
     .annotation-group-scene-1 {
-        opacity: 1;
+        pointer-events: none;
     }
 
     .annotation-group-scene-2 {
-        opacity: 0;
+        pointer-events: none;
     }
 
     .annotation-group-scene-3 {
-        opacity: 0;
+        pointer-events: none;
     }
+
+    .annotation-group-scene-4 {
+        pointer-events: none;
+    }
+
+    .hidden {
+        visibility: hidden;
+    }
+
+   
 
     .labels1 {
         pointer-events: none;
+        font-weight: bold;
     }
 
     .labels2 {
@@ -66,9 +77,12 @@
 
     .tutDiv {
 
+        width: 300px;
+
     }
 
     .title {
+        margin-top: 50px;
 
     }
 
@@ -81,39 +95,67 @@
 
     }
 
+    .selDiv {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .yearBtn {
+        margin-left: 10px;
+        height: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .champBtn {
+        margin-left: 10px;
+        height: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    
+
+
+    /* .annotation-note-bg {
+        fill: rgb(183, 50, 50);
+      } */
+
     
     </style>
     <body onload='init()'>
 
         <div class="mainDiv">
-            <div class="plotdiv" id="plot">
-            </div>
             <div class="tutDiv">
-                <h1 class="title" id="title"> 123123123</h1>
-                <p class="para" id="para">sdfsdf </p>
-                <button class="nextBtn" id="nextBtn"> fsdfs </button>
+                <h1 class="title" id="title"> LoL World Championship Champion Pick-rate, Ban-rate, and Win-rate Visualization.</h1>
+                <p class="para" id="para">This narrative visualization assumes an intermediate level of knowledge 
+                    about the game League of Legends. <br/>
+                    </p>
+                <button class="nextBtn" id="nextBtn"> Start Tutorial </button>
+                <div class="selDiv">
+                    <h3>Select a year:</h3>
+                    <select class="yearBtn" id="yearButton1"></select>
+                </div>
+                <div class="selDiv">
+                    <h3>Select a year:</h3>
+                    <select class="yearBtn" id="yearButton2"></select>
+                </div>
+                <div class="selDiv">
+                    <h3>Select a champion:</h3>
+                    <select class="champBtn" id="champButton"></select>
+                </div>
+                </div>
+            <div class="plotdiv" id="plot">
             </div>
 
         </div>
-        <select id="yearButton1"></select>
-        <select id="yearButton2"></select>
-        <select id="champButton"></select>
+        
 
         <script>
 
             async function init() {
 
-
-                const btn = document.getElementById('nextBtn');
-                const ttl = document.getElementById('title');
-                const para = document.getElementById('para');
-
-                let scene = 0;
-
-                btn.addEventListener('click', function handleClick() {
-                    btn.textContent = 'Button clicked';
-                });
-                 
 
                 var margin = {x: 50, y: 50},
                 width = 900, height = 550;
@@ -129,11 +171,78 @@
                 var allChamps = d3.map(data, function(d){return(d.Champion)}).keys()
 
 
+                const btn = document.getElementById('nextBtn');
+                const selBtn1 = document.getElementById('yearButton1');
+                const selBtn2 = document.getElementById('yearButton2');
+                const champBtn = document.getElementById('champButton');
+
+                let scene = 0;
+
+                btn.addEventListener('click', function handleClick() {
+
+                    if (scene == 0) {
+                        anno1.classed("hidden", false)
+                        btn.textContent = 'Next';
+                        scene += 1
+                    } else if (scene == 1) {
+                        anno1.classed("hidden", true)
+                        anno2.classed("hidden", false)
+
+                        scene += 1
+                    } else if (scene == 2) {
+                        anno2.classed("hidden", true)
+                        anno3.classed("hidden", false)
+                        selBtn1.style.backgroundColor = '#e9346d';
+                        selBtn2.style.backgroundColor = '#e9346d';
+
+                        scene += 1
+                    } else if (scene == 3) {
+                        anno3.classed("hidden", true)
+                        anno4.classed("hidden", false)
+                        selBtn1.style.backgroundColor = 'white';
+                        selBtn2.style.backgroundColor = 'white';
+                        champBtn.style.backgroundColor = '#e9346d';
+            
+                        updateYear("2017", scatterplot1, group1, d3.symbolCircle, labels1)
+                        updateYear("2020", scatterplot2, group2, d3.symbolCross, labels2)
+                        d3.select("#yearButton1")
+                            .selectAll('myOptions')
+                                .data(allYears)
+                            .enter()
+                                .append('option')
+                            .text(function (d) { return d; })
+                            .attr("value", function (d) { return d; })
+                            .property("selected", function(d){ return d === "2017"; });
+
+                        d3.select("#yearButton2")
+                            .selectAll('myOptions')
+                                .data(allYears)
+                            .enter()
+                                .append('option')
+                            .text(function (d) { return d; })
+                            .attr("value", function (d) { return d; })
+                            .property("selected", function(d){ return d === "2020"; });
+
+                        scene += 1
+                        btn.textContent = 'Done';
+                    }
+                    else if (scene == 4) {
+                        anno4.classed("hidden", true)
+                        champBtn.style.backgroundColor = 'white';
+
+
+                        scene += 1
+                        btn.hidden="hidden"
+                    }
+                });
+                
+
+
                 // Define SVG
                 var svg = d3.select("#plot")
                 .append("svg")
                     .attr("width", width)
-                    .attr("height", height)
+                    .attr("height", height + 200)
 
                 // x Axis
                 svg.append("g")
@@ -165,7 +274,7 @@
                     .attr("x", -height/2)
                     .attr("dy", ".75em")
                     .attr("transform", "rotate(-90)")
-                    .text("Winrate");
+                    .text("Win Rate");
 
 
                 // add the X gridlines
@@ -174,7 +283,7 @@
                     .attr("class", "gridline")
                     .attr("transform", "translate(50," + (height - 50) + ")")
                     .call(make_x_gridlines()
-                        .tickSize(-height + 100)
+                        .tickSize(-height + 100 )
                         .tickFormat("")
                     )
 
@@ -192,39 +301,97 @@
                     {
                         note: {
                             label:
-                            "League of Legends is one of the largest esports in the world and the largest event each year is the world championship tournament known as 'Worlds'",
-                            title: "League Esports",
-                            wrap: 150,
-                            align: "left"
-                        },
-                        subject: {
-                            radius: 50
+                            "The plot shows two years of data with the Y axis being win-rate and the X axis " + 
+                            "being pick or ban rate, better known as 'presence.' The size of each point is determined " +
+                            "by how many games the champion was played in.",
+                            title: "The Plot",
+                            wrap: 250,
+                            align: "left",
+
                         },
                         connector: {
-                            end: "arrow" // 'dot' also available
+                             // 'dot' also available
                         },
-                        x: 170,
-                        y: 150,
-                        dy: 137,
-                        dx: 162
-                    }, {
+                        className: "show-bg",
+                        x: (width/2) - 140,
+                        y: height-60,
+                        dy: 80,
+                        dx: 20
+                    }].map(function(d){ d.color = "#E8336D"; return d})
+
+
+                const scene2Anno = [
+                    {
                         note: {
                             label:
-                            "In League of Legends, each player chooses a champion to play as in a game. Picking the right champions heavily determine which team will win a match",
-                            title: "League Esports",
-                            wrap: 150,
-                            align: "left"
+                            "This is the sweet spot. This zone has the best dozen or so champions for a given year. " +
+                            "These champions have a strong presence and winrate to back it. Hover over the datapoitns for more deatil.",
+                            title: "The Sweet Spot",
+                            wrap: 300,
+                            align: "left",
+
                         },
                         subject: {
-                            radius: 50
+                            radius: 120
                         },
-                        connector: {
-                            end: "arrow" // 'dot' also available
+                        color: {
+                             color: "red"
                         },
-                        x: 170,
-                        y: 150,
-                        dy: 137,
-                        dx: 162
+                        className: "show-bg",
+                        x: (width/2) + 140,
+                        y: height/2 - 80,
+                        dy: height/2 + 80,
+                        dx: -240
+                    }].map(function(d){ d.color = "#E8336D"; return d})
+
+
+
+                    const scene3Anno = [
+                    {
+                        note: {
+                            label:
+                            "No champion remains in the sweet spot for very long. Take a 'Lee Sin' as an example. He is considered " + 
+                            "to be one of the best champions in LoL history but if we take a look at different years by utilizing the dropdown " +
+                            "menus...",
+                            title: "Changing the Years",
+                            wrap: 300,
+                            align: "left",
+
+                        },
+                        color: {
+                             color: "red"
+                        },
+                        className: "show-bg",
+                        x: (width/2) - 140,
+                        y: height,
+                        dy: 0,
+                        dx: 0
+                    }].map(function(d){ d.color = "#E8336D"; return d})
+
+
+                    const scene4Anno = [
+                    {
+                        note: {
+                            label:
+                            "We see that he isn't in the sweetspot as much as many would think. " + 
+                            "2017 and 2020 being perfect examples of this. " + 
+                            "You can use the champion selector to view trends with different champions. Go wild and see what you can find.",
+                            title: "Changing the champion",
+                            wrap: 300,
+                            align: "left",
+
+                        },
+                        subject: {
+                            radius: 120
+                        },
+                        color: {
+                             color: "red"
+                        },
+                        className: "show-bg",
+                        x: (width/2) + 140,
+                        y: height/2 - 80,
+                        dy: height/2 + 80,
+                        dx: -240
                     }].map(function(d){ d.color = "#E8336D"; return d})
 
 
@@ -239,7 +406,7 @@
                 
                 var currentYear1 = "2011"
                 // Year button 1
-                d3.select("#yearButton1")
+                var selector1 = d3.select("#yearButton1")
                 .selectAll('myOptions')
                     .data(allYears)
                 .enter()
@@ -250,7 +417,7 @@
                 
                 var currentYear2 = "2016"
                 // Year button 2
-                d3.select("#yearButton2")
+                var selector2 = d3.select("#yearButton2")
                 .selectAll('myOptions')
                     .data(allYears)
                 .enter()
@@ -371,7 +538,7 @@
                 
                 var labels1 = svg.append("g")
                     .attr("transform", "translate(" + margin.x + "," + margin.y + ")")
-                    .selectAll("text").data(data.filter(function(d){return d.Year==allYears[0]}))
+                    .selectAll("text").data(data.filter(function(d){return d.Year==allYears[5]}))
                     .enter().append("text")
                     .attr("class", "labels1")
                     .text(function(d) {if (d.Champion == currentChamp) {
@@ -384,7 +551,7 @@
 
                 var labels2 = svg.append("g")
                     .attr("transform", "translate(" + margin.x + "," + margin.y + ")")
-                    .selectAll("text").data(data.filter(function(d){return d.Year==allYears[5]}))
+                    .selectAll("text").data(data.filter(function(d){return d.Year==allYears[0]}))
                     .enter().append("text")
                     .attr("class", "labels2")
                     .text(function(d) {if (d.Champion == currentChamp) {
@@ -397,30 +564,38 @@
                 
                 // Add annotations 
                 const makeScene1Anno = d3.annotation()
-                    .type(d3.annotationCalloutCircle)
-                    .annotations(scene1Anno)
-
-                    svg.append("g")
-                    .attr("class", "annotation-group-scene-1")
-                    .call(makeScene1Anno)
-
-                const makeScene2anno = d3.annotation()
                     .type(d3.annotationLabel)
                     .annotations(scene1Anno)
 
-                    svg.append("g")
-                    .attr("class", "annotation-group-scene-1")
+                var anno1 = svg.append("g")
+                    .attr("class", "annotation-group-scene-1 hidden")
                     .call(makeScene1Anno)
+
+
+                const makeScene2anno = d3.annotation()
+                    .type(d3.annotationCalloutCircle)
+                    .annotations(scene2Anno)
+
+                var anno2 = svg.append("g")
+                    .attr("class", "annotation-group-scene-2 hidden")
+                    .call(makeScene2anno)
+
                 
                 const makeScene3Anno = d3.annotation()
                     .type(d3.annotationLabel)
-                    .annotations(scene1Anno)
+                    .annotations(scene3Anno)
 
-                    svg.append("g")
-                    .attr("class", "annotation-group-scene-1")
-                    .call(makeScene1Anno)
+                var anno3 = svg.append("g")
+                    .attr("class", "annotation-group-scene-3 hidden")
+                    .call(makeScene3Anno)
 
+                const makeScene4Anno = d3.annotation()
+                    .type(d3.annotationCalloutCircle)
+                    .annotations(scene4Anno)
 
+                var anno4 = svg.append("g")
+                    .attr("class", "annotation-group-scene-4 hidden")
+                    .call(makeScene4Anno)
 
                 // Update scatterplot
                 function updateYear(newYear, scatterplot, group, symbol, labels) {
@@ -524,17 +699,6 @@
                 function make_y_gridlines() {		
                     return d3.axisLeft(yScale)
                         .ticks(9)
-                }
-
-
-
-
-                function scene2Transition() {
-
-                }
-
-                function scene3Transition() {
-
                 }
 
             }
