@@ -58,42 +58,82 @@
         pointer-events: none;
     }
 
+    .mainDiv {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .tutDiv {
+
+    }
+
+    .title {
+
+    }
+
+    .para {
+
+    }
+    
+    .nextBtn {
+        visibility: visible;
+
+    }
+
     
     </style>
     <body onload='init()'>
 
+        <div class="mainDiv">
+            <div class="plotdiv" id="plot">
+            </div>
+            <div class="tutDiv">
+                <h1 class="title" id="title"> 123123123</h1>
+                <p class="para" id="para">sdfsdf </p>
+                <button class="nextBtn" id="nextBtn"> fsdfs </button>
+            </div>
+
+        </div>
         <select id="yearButton1"></select>
         <select id="yearButton2"></select>
         <select id="champButton"></select>
 
-        <div class="plotdiv" id="plot">
-        </div>
-
         <script>
 
             async function init() {
+
+
+                const btn = document.getElementById('nextBtn');
+                const ttl = document.getElementById('title');
+                const para = document.getElementById('para');
+
+                let scene = 0;
+
+                btn.addEventListener('click', function handleClick() {
+                    btn.textContent = 'Button clicked';
+                });
                  
+
                 var margin = {x: 50, y: 50},
                 width = 900, height = 550;
 
                 // P+B or P% or B%
                 var xScale = d3.scaleLinear().domain([0,1]).range([0, 800]);
-                
                 // W%
                 var yScale = d3.scaleLinear().domain([0,1]).range([450, 0]);
-
                 var sizeScale = d3.scaleLinear().domain([0,57]).range([75, 500]);
                 
                 var data = await d3.csv("/worlds.csv")
                 var allYears = d3.map(data, function(d){return(d.Year)}).keys()      
                 var allChamps = d3.map(data, function(d){return(d.Champion)}).keys()
 
+
                 // Define SVG
                 var svg = d3.select("#plot")
                 .append("svg")
                     .attr("width", width)
                     .attr("height", height)
-
 
                 // x Axis
                 svg.append("g")
@@ -148,24 +188,44 @@
                         .tickFormat("")
                     )
 
-                const scene1Anno = [{
-                    note: {
-                        label: "Added connector end 'arrow', note wrap '180', and note align 'left'",
-                        title: "d3.annotationLabel",
-                        wrap: 150,
-                        align: "left"
-                    },
-                    subject: {
-                        radius: 50
-                    },
-                    connector: {
-                        end: "arrow" // 'dot' also available
-                    },
-                    x: 170,
-                    y: 150,
-                    dy: 137,
-                    dx: 162
-                    },].map(function(d){ d.color = "#E8336D"; return d})
+                const scene1Anno = [
+                    {
+                        note: {
+                            label:
+                            "League of Legends is one of the largest esports in the world and the largest event each year is the world championship tournament known as 'Worlds'",
+                            title: "League Esports",
+                            wrap: 150,
+                            align: "left"
+                        },
+                        subject: {
+                            radius: 50
+                        },
+                        connector: {
+                            end: "arrow" // 'dot' also available
+                        },
+                        x: 170,
+                        y: 150,
+                        dy: 137,
+                        dx: 162
+                    }, {
+                        note: {
+                            label:
+                            "In League of Legends, each player chooses a champion to play as in a game. Picking the right champions heavily determine which team will win a match",
+                            title: "League Esports",
+                            wrap: 150,
+                            align: "left"
+                        },
+                        subject: {
+                            radius: 50
+                        },
+                        connector: {
+                            end: "arrow" // 'dot' also available
+                        },
+                        x: 170,
+                        y: 150,
+                        dy: 137,
+                        dx: 162
+                    }].map(function(d){ d.color = "#E8336D"; return d})
 
 
                 // Define the two scatterplot groups
@@ -226,7 +286,6 @@
                 
                 var symbol = d3.symbol();
 
-                // color = d3.scaleOrdinal(d3.schemeCategory10)
                 shape = d3.scaleOrdinal(
                     data.map(d => d.year),
                     d3.symbols.map(s => d3.symbol().type(s)()))
@@ -237,7 +296,6 @@
                     .style("opacity", 0);
 
 
-                
                 var scatterplot1 = group1.selectAll('path').data(data.filter(function(d){return d.Year==allYears[0]}))
                     .join("path")
                     .attr("transform",
@@ -246,6 +304,7 @@
                     .attr("fill", function(d){return colors(allYears[0])})
                     .attr("opacity","0.8")
                     .style("z-index", "-1")
+                    .style('stroke', 'grey')
                         .on("mouseover", function(d){
                             tooltipDiv.transition()		
                             .duration(100)		
@@ -271,7 +330,7 @@
                                 tooltipDiv.transition()		
                                     .duration(200)		
                                     .style("opacity", 0);	
-                                d3.select(this).style('stroke', 'transparent');
+                                d3.select(this).style('stroke', 'grey');
                             });
 
                 var scatterplot2 = group2.selectAll('path').data(data.filter(function(d){return d.Year==allYears[5]}))
@@ -281,6 +340,7 @@
                     .attr("d", d3.symbol().type(d3.symbolCross).size(function(d){return d.GP * 25}))
                     .attr("fill", function(d){return colors(allYears[5])})
                     .attr("opacity","0.8")
+                    .style('stroke', 'grey')
                         .on("mouseover", function(d){
                             tooltipDiv.transition()		
                             .duration(200)		
@@ -306,7 +366,7 @@
                                 tooltipDiv.transition()		
                                     .duration(500)		
                                     .style("opacity", 0);	
-                                d3.select(this).style('stroke', 'transparent');
+                                d3.select(this).style('stroke', 'grey');
                             });
                 
                 var labels1 = svg.append("g")
@@ -314,12 +374,12 @@
                     .selectAll("text").data(data.filter(function(d){return d.Year==allYears[0]}))
                     .enter().append("text")
                     .attr("class", "labels1")
-                    .text(function(d) {if (d.Champion == "Lee Sin") {
+                    .text(function(d) {if (d.Champion == currentChamp) {
                         return d.Champion
                     }
                         return ""})
                     .attr("x", function(d) {return xScale(d.PB/100)})
-                    .attr("y", function(d) {return yScale(d.W/100)});
+                    .attr("y", function(d) {return yScale(d.W/100) + 12});
 
 
                 var labels2 = svg.append("g")
@@ -327,12 +387,12 @@
                     .selectAll("text").data(data.filter(function(d){return d.Year==allYears[5]}))
                     .enter().append("text")
                     .attr("class", "labels2")
-                    .text(function(d) {if (d.Champion == "Lee Sin") {
+                    .text(function(d) {if (d.Champion == currentChamp) {
                         return d.Champion
                     }
                         return ""})
                     .attr("x", function(d) {return xScale(d.PB/100)})
-                    .attr("y", function(d) {return yScale(d.W/100)});
+                    .attr("y", function(d) {return yScale(d.W/100) + 12});
         
                 
                 // Add annotations 
